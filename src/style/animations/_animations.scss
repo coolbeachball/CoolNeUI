@@ -1,0 +1,209 @@
+// Animation duration range
+$animation-duration-min: 0.5s;
+$animation-duration-max: 20s;
+$animation-duration-step: 0.5s;
+
+// Default animation settings
+$default-animation-timing-function: ease-in-out;
+$default-animation-iteration: infinite;
+
+// Base animation class
+.animation {
+    animation-timing-function: $default-animation-timing-function;
+    animation-iteration-count: $default-animation-iteration;
+
+    // Animation types
+    &-slide {
+        animation-name: slide;
+    }
+      
+    // Slide direction utilities
+    &-slide-left {
+        animation-name: slide-left;
+    }
+      
+    &-slide-right {
+        animation-name: slide-right;
+    }
+      
+    &-slide-up {
+        animation-name: slide-up;
+    }
+      
+    &-slide-down {
+        animation-name: slide-down;
+    }
+      
+    
+    &-bounce {
+        animation-name: bounce;
+    }
+      
+    &-shake {
+        animation-name: shake;
+    }
+      
+    &-scale {
+        animation-name: scale;
+    }
+      
+    &-spin {
+        animation-name: spin;
+    }
+      
+    &-fade {
+        animation-name: fade;
+    }
+}
+
+// Generate classes for durations (0.5s to 20s)
+@for $i from 1 through 40 {
+    $duration: $i * 0.5;
+  
+    // Multiply duration by 10 to avoid decimals in the class name
+    $class-name: $duration * 10;
+  
+    .duration-#{$class-name} {
+      animation-duration: #{$duration}s;
+    }
+  }
+  
+  
+// Animation timing utilities
+.linear {
+    animation-timing-function: linear;
+}
+  
+.ease {
+    animation-timing-function: ease;
+}
+  
+.ease-in {
+    animation-timing-function: ease-in;
+}
+  
+.ease-out {
+    animation-timing-function: ease-out;
+}
+  
+// Animation iteration utilities
+.infinite {
+    animation-iteration-count: infinite;
+}
+  
+.once {
+    animation-iteration-count: 1;
+}
+  
+.twice {
+    animation-iteration-count: 2;
+}
+
+@keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100px);
+    }
+}
+
+@keyframes slide-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100px);
+    }
+}
+  
+@keyframes slide-right {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100px);
+    }
+}
+  
+@keyframes slide-up {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100px);
+    }
+}
+  
+@keyframes slide-down {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100px);
+    }
+}
+  
+@keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+  
+@keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-10px);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    75% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+  
+@keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+  
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+  
+@keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+  

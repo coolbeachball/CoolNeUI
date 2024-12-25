@@ -1,0 +1,11 @@
+@import '../base/variables';
+
+.container {
+  max-width: $lg;
+  margin: 0 auto;
+  padding: 0 $sm;
+  
+  &-fluid {
+    max-width: 100%;
+  }
+}

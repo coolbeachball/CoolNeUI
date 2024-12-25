@@ -1,0 +1,167 @@
+@import '../base/variables';
+
+// Custom Darken Function
+@function darken($color, $percentage) {
+    @return (#000000, $color, 100 - $percentage);
+}
+
+.link {
+    color: $aqua;
+
+    &-pink {
+        color: $pink;
+
+        &:hover {
+            color: darken($pink, 10);
+            text-decoration: underline;
+        }
+
+        &:active {
+            opacity: 0.8;
+        }
+    }
+
+    &-red {
+        color: $red;
+
+        &:hover {
+            color: darken($red, 10);
+            text-decoration: underline;
+        }
+
+        &:active {
+            opacity: 0.8;
+        }
+    }
+
+    &-orange {
+        color: $orange;
+
+        &:hover {
+            color: darken($orange, 10);
+            text-decoration: underline;
+        }
+
+        &:active {
+            opacity: 0.8;
+        }
+    }
+
+    &-yellow {
+        color: $yellow;
+
+        &:hover {
+            color: darken($yellow, 10);
+            text-decoration: underline;
+        }
+
+        &:active {
+            opacity: 0.8;
+        }
+    }
+
+    &-green {
+        color: $green;
+
+        &:hover {
+            color: darken($green, 10);
+            text-decoration: underline;
+        }
+
+        &:active {
+            opacity: 0.8;
+        }
+    }
+
+    &-aqua {
+        color: $aqua;
+
+        &:hover {
+            color: darken($aqua, 10);
+            text-decoration: underline;
+        }
+
+        &:active {
+            opacity: 0.8;
+        }
+    }
+
+    &-sky {
+        color: $sky;
+
+        &:hover {
+            color: darken($sky, 10);
+            text-decoration: underline;
+        }
+
+        &:active {
+            opacity: 0.8;
+        }
+    }
+
+    &-blue {
+        color: $blue;
+
+        &:hover {
+            color: darken($blue, 10);
+            text-decoration: underline;
+        }
+
+        &:active {
+            opacity: 0.8;
+        }
+    }
+
+    &-violet {
+        color: $violet;
+
+        &:hover {
+            color: darken($violet, 10);
+            text-decoration: underline;
+        }
+
+        &:active {
+            opacity: 0.8;
+        }
+    }
+
+    &-gray {
+        color: $gray;
+
+        &:hover {
+            color: darken($gray, 10);
+            text-decoration: underline;
+        }
+
+        &:active {
+            opacity: 0.8;
+            text-decoration: underline;
+        }
+    }
+
+    &-dark {
+        color: $dark; // Ensure $dark is defined
+
+        &:hover {
+            color: darken($dark, 10);
+            text-decoration: underline;
+        }
+
+        &:active {
+            opacity: 0.8;
+        }
+    }
+
+    &-light {
+        color: $light; // Ensure $light is defined
+
+        &:hover {
+            color: darken($light, 10);
+            text-decoration: underline;
+        }
+
+        &:active {
+            opacity: 0.8;
+        }
+    }
+}

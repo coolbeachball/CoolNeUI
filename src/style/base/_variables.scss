@@ -1,0 +1,239 @@
+// Colors
+$pink: #FF2D55;
+$red: #FF3B30;
+$orange: #FF9500;
+$yellow: #FFCC00;
+$green: #4CD964;
+$aqua: #5AC8FA;
+$sky: #34AADC;
+$blue: #007AFF;
+$violet: #5856D6;
+
+// non-colors
+$dark: #222224;
+$gray: #8E8E93;
+$light: #F3F3FC;
+
+$transparent: transparent;
+
+// Function to generate shades
+@function shade($color, $percentage) {
+    @return mix($color, if($percentage > 0, #ffffff, #000000), abs($percentage));
+  }
+  
+// Pink Shades
+$pink-lighter-1: shade($pink, 90%);
+$pink-lighter-2: shade($pink, 80%);
+$pink-lighter-3: shade($pink, 70%);
+$pink-lighter-4: shade($pink, 60%);
+$pink-lighter-5: shade($pink, 50%);
+$pink-lighter-6: shade($pink, 40%);
+$pink-lighter-7: shade($pink, 30%);
+$pink-lighter-8: shade($pink, 20%);
+
+$pink-darker-1: shade($pink, -90%);
+$pink-darker-2: shade($pink, -80%);
+$pink-darker-3: shade($pink, -70%);
+$pink-darker-4: shade($pink, -60%);
+$pink-darker-5: shade($pink, -50%);
+$pink-darker-6: shade($pink, -40%);
+$pink-darker-7: shade($pink, -30%);
+$pink-darker-8: shade($pink, -20%);
+$pink-darker-9: shade($pink, -10%);
+  
+// Red Shades
+$red-lighter-1: shade($red, 90%);
+$red-lighter-2: shade($red, 80%);
+$red-lighter-3: shade($red, 70%);
+$red-lighter-4: shade($red, 60%);
+$red-lighter-5: shade($red, 50%);
+$red-lighter-6: shade($red, 40%);
+$red-lighter-7: shade($red, 30%);
+$red-lighter-8: shade($red, 20%);
+$red-lighter-9: shade($red, 10%);
+
+$red-darker-1: shade($red, -90%);
+$red-darker-2: shade($red, -80%);
+$red-darker-3: shade($red, -70%);
+$red-darker-4: shade($red, -60%);
+$red-darker-5: shade($red, -50%);
+$red-darker-6: shade($red, -40%);
+$red-darker-7: shade($red, -30%);
+$red-darker-8: shade($red, -20%);
+$red-darker-9: shade($red, -10%);
+  
+// Orange Shades
+$orange-lighter-1: shade($orange, 90%);
+$orange-lighter-2: shade($orange, 80%);
+$orange-lighter-3: shade($orange, 70%);
+$orange-lighter-4: shade($orange, 60%);
+$orange-lighter-5: shade($orange, 50%);
+$orange-lighter-6: shade($orange, 40%);
+$orange-lighter-7: shade($orange, 30%);
+$orange-lighter-8: shade($orange, 20%);
+$orange-lighter-9: shade($orange, 10%);
+
+$orange-darker-1: shade($orange, -90%);
+$orange-darker-2: shade($orange, -80%);
+$orange-darker-3: shade($orange, -70%);
+$orange-darker-4: shade($orange, -60%);
+$orange-darker-5: shade($orange, -50%);
+$orange-darker-6: shade($orange, -40%);
+$orange-darker-7: shade($orange, -30%);
+$orange-darker-8: shade($orange, -20%);
+$orange-darker-9: shade($orange, -10%);
+  
+// Yellow Shades
+$yellow-lighter-1: shade($yellow, 90%);
+$yellow-lighter-2: shade($yellow, 80%);
+$yellow-lighter-3: shade($yellow, 70%);
+$yellow-lighter-4: shade($yellow, 60%);
+$yellow-lighter-5: shade($yellow, 50%);
+$yellow-lighter-6: shade($yellow, 40%);
+$yellow-lighter-7: shade($yellow, 30%);
+$yellow-lighter-8: shade($yellow, 20%);
+$yellow-lighter-9: shade($yellow, 10%);
+
+$yellow-darker-1: shade($yellow, -90%);
+$yellow-darker-2: shade($yellow, -80%);
+$yellow-darker-3: shade($yellow, -70%);
+$yellow-darker-4: shade($yellow, -60%);
+$yellow-darker-5: shade($yellow, -50%);
+$yellow-darker-6: shade($yellow, -40%);
+$yellow-darker-7: shade($yellow, -30%);
+$yellow-darker-8: shade($yellow, -20%);
+$yellow-darker-9: shade($yellow, -10%);
+  
+// Green Shades
+$green-lighter-1: shade($green, 90%);
+$green-lighter-2: shade($green, 80%);
+$green-lighter-3: shade($green, 70%);
+$green-lighter-4: shade($green, 60%);
+$green-lighter-5: shade($green, 50%);
+$green-lighter-6: shade($green, 40%);
+$green-lighter-7: shade($green, 30%);
+$green-lighter-8: shade($green, 20%);
+$green-lighter-9: shade($green, 10%);
+
+$green-darker-1: shade($green, -90%);
+$green-darker-2: shade($green, -80%);
+$green-darker-3: shade($green, -70%);
+$green-darker-4: shade($green, -60%);
+$green-darker-5: shade($green, -50%);
+$green-darker-6: shade($green, -40%);
+$green-darker-7: shade($green, -30%);
+$green-darker-8: shade($green, -20%);
+$green-darker-9: shade($green, -10%);
+  
+// Aqua Shades
+$aqua-lighter-1: shade($aqua, 90%);
+$aqua-lighter-2: shade($aqua, 80%);
+$aqua-lighter-3: shade($aqua, 70%);
+$aqua-lighter-4: shade($aqua, 60%);
+$aqua-lighter-5: shade($aqua, 50%);
+$aqua-lighter-6: shade($aqua, 40%);
+$aqua-lighter-7: shade($aqua, 30%);
+$aqua-lighter-8: shade($aqua, 20%);
+$aqua-lighter-9: shade($aqua, 10%);
+
+$aqua-darker-1: shade($aqua, -90%);
+$aqua-darker-2: shade($aqua, -80%);
+$aqua-darker-3: shade($aqua, -70%);
+$aqua-darker-4: shade($aqua, -60%);
+$aqua-darker-5: shade($aqua, -50%);
+$aqua-darker-6: shade($aqua, -40%);
+$aqua-darker-7: shade($aqua, -30%);
+$aqua-darker-8: shade($aqua, -20%);
+$aqua-darker-9: shade($aqua, -10%);
+  
+// Sky Shades
+$sky-lighter-1: shade($sky, 90%);
+$sky-lighter-2: shade($sky, 80%);
+$sky-lighter-3: shade($sky, 70%);
+$sky-lighter-4: shade($sky, 60%);
+$sky-lighter-5: shade($sky, 50%);
+$sky-lighter-6: shade($sky, 40%);
+$sky-lighter-7: shade($sky, 30%);
+$sky-lighter-8: shade($sky, 20%);
+$sky-lighter-9: shade($sky, 10%);
+
+$sky-darker-1: shade($sky, -90%);
+$sky-darker-2: shade($sky, -80%);
+$sky-darker-3: shade($sky, -70%);
+$sky-darker-4: shade($sky, -60%);
+$sky-darker-5: shade($sky, -50%);
+$sky-darker-6: shade($sky, -40%);
+$sky-darker-7: shade($sky, -30%);
+$sky-darker-8: shade($sky, -20%);
+$sky-darker-9: shade($sky, -10%);
+  
+// Blue Shades
+$blue-lighter-1: shade($blue, 90%);
+$blue-lighter-2: shade($blue, 80%);
+$blue-lighter-3: shade($blue, 70%);
+$blue-lighter-4: shade($blue, 60%);
+$blue-lighter-5: shade($blue, 50%);
+$blue-lighter-6: shade($blue, 40%);
+$blue-lighter-7: shade($blue, 30%);
+$blue-lighter-8: shade($blue, 20%);
+$blue-lighter-9: shade($blue, 10%);
+
+$blue-darker-1: shade($blue, -90%);
+$blue-darker-2: shade($blue, -80%);
+$blue-darker-3: shade($blue, -70%);
+$blue-darker-4: shade($blue, -60%);
+$blue-darker-5: shade($blue, -50%);
+$blue-darker-6: shade($blue, -40%);
+$blue-darker-7: shade($blue, -30%);
+$blue-darker-8: shade($blue, -20%);
+$blue-darker-9: shade($blue, -10%);
+  
+// Violet Shades
+$violet-lighter-1: shade($violet, 90%);
+$violet-lighter-2: shade($violet, 80%);
+$violet-lighter-3: shade($violet, 70%);
+$violet-lighter-4: shade($violet, 60%);
+$violet-lighter-5: shade($violet, 50%);
+$violet-lighter-6: shade($violet, 40%);
+$violet-lighter-7: shade($violet, 30%);
+$violet-lighter-8: shade($violet, 20%);
+$violet-lighter-9: shade($violet, 10%);
+
+$violet-darker-1: shade($violet, -90%);
+$violet-darker-2: shade($violet, -80%);
+$violet-darker-3: shade($violet, -70%);
+$violet-darker-4: shade($violet, -60%);
+$violet-darker-5: shade($violet, -50%);
+$violet-darker-6: shade($violet, -40%);
+$violet-darker-7: shade($violet, -30%);
+$violet-darker-8: shade($violet, -20%);
+$violet-darker-9: shade($violet, -10%);
+
+// Gray Shades
+$gray-lighter-1: shade($gray, 90%);
+$gray-lighter-2: shade($gray, 80%);
+$gray-lighter-3: shade($gray, 70%);
+$gray-lighter-4: shade($gray, 60%);
+$gray-lighter-5: shade($gray, 50%);
+$gray-lighter-6: shade($gray, 40%);
+$gray-lighter-7: shade($gray, 30%);
+$gray-lighter-8: shade($gray, 20%);
+$gray-lighter-9: shade($gray, 10%);
+
+$gray-darker-1: shade($gray, -90%);
+$gray-darker-2: shade($gray, -80%);
+$gray-darker-3: shade($gray, -70%);
+$gray-darker-4: shade($gray, -60%);
+$gray-darker-5: shade($gray, -50%);
+$gray-darker-6: shade($gray, -40%);
+$gray-darker-7: shade($gray, -30%);
+$gray-darker-8: shade($gray, -20%);
+$gray-darker-9: shade($gray, -10%);
+
+// sizes 
+$xxl: 5rem;
+$xl: 4rem;
+$lg: 3rem;
+$md: 2rem;
+$sm: 1.5rem;
+$xs: 1rem;

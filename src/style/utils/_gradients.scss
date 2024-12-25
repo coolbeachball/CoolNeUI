@@ -1,0 +1,145 @@
+@import '../base/variables';
+
+.gradient {
+    &-x {
+        &-pink-red {
+            background: linear-gradient($pink, $red);
+        }
+        &-red-pink {
+            background: linear-gradient($red, $pink);
+        }
+        &-orange-red {
+            background: linear-gradient($orange, $red);
+        }
+        &-red-orange {
+            background: linear-gradient($red, $orange);
+        }
+        &-orange-yellow {
+            background: linear-gradient($orange, $yellow);
+        }
+        &-yellow-orange {
+            background: linear-gradient($yellow, $orange);
+        }
+        &-green-yellow {
+            background: linear-gradient($green, $yellow);
+        }
+        &-yellow-green {
+            background: linear-gradient($yellow, $green);
+        }
+        &-aqua-green {
+            background: linear-gradient($aqua, $green);
+        }
+        &-green-aqua {
+            background: linear-gradient($green, $aqua);
+        }
+        &-sky-aqua {
+            background: linear-gradient($sky, $aqua);
+        }
+        &-aqua-sky {
+            background: linear-gradient($aqua, $sky);
+        }
+        &-blue-sky {
+            background: linear-gradient($blue, $sky);
+        }
+        &-sky-blue {
+            background: linear-gradient($sky, $blue);
+        }
+        &-violet-blue {
+            background: linear-gradient($violet, $blue);
+        }
+        &-blue-violet {
+            background: linear-gradient($blue, $violet);
+        }
+        &-pink-violet {
+            background: linear-gradient($pink, $violet);
+        }
+        &-violet-pink {
+            background: linear-gradient($violet, $pink);
+        }
+
+        &-gray-light {
+            background: linear-gradient($gray, $light);
+        }
+        &-light-gray {
+            background: linear-gradient($light, $gray);
+        }
+
+        &-light-dark {
+            background: linear-gradient($light, $dark);
+        }
+        &-dark-light {
+            background: linear-gradient($dark, $light);
+        }
+    }
+
+    &-y {
+        &-pink-red {
+            background: linear-gradient(90deg, $pink, $red);
+        }
+        &-red-pink {
+            background: linear-gradient(90deg, $red, $pink);
+        }
+        &-orange-red {
+            background: linear-gradient(90deg, $orange, $red);
+        }
+        &-red-orange {
+            background: linear-gradient(90deg, $red, $orange);
+        }
+        &-orange-yellow {
+            background: linear-gradient(90deg, $orange, $yellow);
+        }
+        &-yellow-orange {
+            background: linear-gradient(90deg, $yellow, $orange);
+        }
+        &-green-yellow {
+            background: linear-gradient(90deg, $green, $yellow);
+        }
+        &-yellow-green {
+            background: linear-gradient(90deg, $yellow, $green);
+        }
+        &-aqua-green {
+            background: linear-gradient(90deg, $aqua, $green);
+        }
+        &-green-aqua {
+            background: linear-gradient(90deg, $green, $aqua);
+        }
+        &-sky-aqua {
+            background: linear-gradient(90deg, $sky, $aqua);
+        }
+        &-aqua-sky {
+            background: linear-gradient(90deg, $aqua, $sky);
+        }
+        &-blue-sky {
+            background: linear-gradient(90deg, $blue, $sky);
+        }
+        &-sky-blue {
+            background: linear-gradient(90deg, $sky, $blue);
+        }
+        &-violet-blue {
+            background: linear-gradient(90deg, $violet, $blue);
+        }
+        &-blue-violet {
+            background: linear-gradient(90deg, $blue, $violet);
+        }
+        &-pink-violet {
+            background: linear-gradient(90deg, $pink, $violet);
+        }
+        &-violet-pink {
+            background: linear-gradient(90deg, $violet, $pink);
+        }
+
+        &-gray-light {
+            background: linear-gradient(90deg, $gray, $light);
+        }
+        &-light-gray {
+            background: linear-gradient(90deg, $light, $gray);
+        }
+
+        &-light-dark {
+            background: linear-gradient(90deg, $light, $dark);
+        }
+        &-dark-light {
+            background: linear-gradient(90deg, $dark, $light);
+        }
+    }
+}

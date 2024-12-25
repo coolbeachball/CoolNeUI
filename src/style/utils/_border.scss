@@ -1,0 +1,98 @@
+@import '../base/variables';
+@import '../base/mixins';
+
+@mixin borderWidth() {
+  &-xxl {
+    border-width: $xxl;
+  }
+  &-xl {
+    border-width: $xl;
+  }
+  &-lg {
+    border-width: $lg;
+  }
+  &-md {
+    border-width: $md;
+  }
+  &-sm {
+    border-width: $sm;
+  }
+  &-xs {
+    border-width: $xs;
+  }
+}
+
+.border {
+  border: 0.2em solid $dark;
+  @include borderColor();
+  @include borderWidth();
+
+  &-t {
+    border-top: 0.2em solid $dark;
+    @include borderColor();
+    @include borderWidth();
+  }
+  &-r {
+    border-right: 0.2em solid $dark;
+    @include borderColor();
+    @include borderWidth();
+  }
+  &-b {
+    border-bottom: 0.2em solid $dark;
+    @include borderColor();
+    @include borderWidth();
+  }
+  &-l {
+    border-left: 0.2em solid $dark;
+    @include borderColor();
+    @include borderWidth();
+  }
+  &-x {
+    border-left: 0.2em solid $dark;
+    border-right: 0.2em solid $dark;
+    @include borderColor();
+    @include borderWidth();
+  }
+  &-y {
+    border-top: 0.2em solid $dark;
+    border-bottom: 0.2em solid $dark;
+    @include borderColor();
+    @include borderWidth();
+  }
+
+  &-cut {
+    &-t {
+      border: 0.2em solid $dark;
+      border-top: none;
+    }
+    &-r {
+      border: 0.2em solid $dark;
+      border-right: none;
+    }
+    &-b {
+      border: 0.2em solid $dark;
+      border-bottom: none;
+    }
+    &-l {
+      border: 0.2em solid $dark;
+      border-left: none;
+    }
+  }
+
+  &-dotted {
+    border-style: dotted;
+    @include borderColor();
+    @include borderWidth();
+  }
+
+  &-dashed {
+    border-style: dashed;
+    @include borderColor();
+    @include borderWidth();
+  }
+
+  &-none {
+    border-style: none;
+  }
+}
+  

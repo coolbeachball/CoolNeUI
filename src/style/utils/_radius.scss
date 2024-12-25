@@ -1,0 +1,98 @@
+.rounded {
+    border-radius: 1rem;
+
+    &-t {
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+    &-r {
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+    &-b {
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+    &-l {
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+    &-tl {
+        border-top-left-radius: 1rem;
+    }
+    &-tr {
+        border-top-right-radius: 1rem;
+    }
+    &-bl {
+        border-bottom-left-radius: 1rem;
+    }
+    &-br {
+        border-bottom-right-radius: 1rem;
+    }
+}
+
+.rounder {
+    border-radius: 1.5rem;
+
+    &-t {
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+    }
+    &-r {
+        border-top-right-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+    }
+    &-b {
+        border-bottom-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+    }
+    &-l {
+        border-top-left-radius: 1.5rem;
+        border-bottom-left-radius: 1.5rem;
+    }
+    &-tl {
+        border-top-left-radius: 1.5rem;
+    }
+    &-tr {
+        border-top-right-radius: 1.5rem;
+    }
+    &-bl {
+        border-bottom-left-radius: 1.5rem;
+    }
+    &-br {
+        border-bottom-right-radius: 1.5rem;
+    }
+}
+
+.circle {
+    border-radius: 50%;
+
+    &-t {
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+    }
+    &-r {
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }
+    &-b {
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }
+    &-l {
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+    &-tl {
+        border-top-left-radius: 50%;
+    }
+    &-tr {
+        border-top-right-radius: 50%;
+    }
+    &-bl {
+        border-bottom-left-radius: 50%;
+    }
+    &-br {
+        border-bottom-right-radius: 50%;
+    }
+}

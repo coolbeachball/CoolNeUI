@@ -1,0 +1,1769 @@
+@mixin borderColor() {
+    &-pink {
+        border-color: $pink;
+
+        &-darker {
+            &-1 {
+                border-color: $pink-darker-1;
+            }
+            &-2 {
+                border-color: $pink-darker-2;
+            }
+            &-3 {
+                border-color: $pink-darker-3;
+            }
+            &-4 {
+                border-color: $pink-darker-4;
+            }
+            &-5 {
+                border-color: $pink-darker-5;
+            }
+            &-6 {
+                border-color: $pink-darker-6;
+            }
+            &-7 {
+                border-color: $pink-darker-7;
+            }
+            &-8 {
+                border-color: $pink-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                border-color: $pink-lighter-1;
+            }
+            &-2 {
+                border-color: $pink-lighter-2;
+            }
+            &-3 {
+                border-color: $pink-lighter-3;
+            }
+            &-4 {
+                border-color: $pink-lighter-4;
+            }
+            &-5 {
+                border-color: $pink-lighter-5;
+            }
+            &-6 {
+                border-color: $pink-lighter-6;
+            }
+            &-7 {
+                border-color: $pink-lighter-7;
+            }
+            &-8 {
+                border-color: $pink-lighter-8;
+            }
+        }
+    }
+    &-red {
+        border-color: $red;
+
+        &-darker {
+            &-1 {
+                border-color: $pink-darker-1;
+            }
+            &-2 {
+                border-color: $pink-darker-2;
+            }
+            &-3 {
+                border-color: $pink-darker-3;
+            }
+            &-4 {
+                border-color: $pink-darker-4;
+            }
+            &-5 {
+                border-color: $pink-darker-5;
+            }
+            &-6 {
+                border-color: $pink-darker-6;
+            }
+            &-7 {
+                border-color: $pink-darker-7;
+            }
+            &-8 {
+                border-color: $pink-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                border-color: $pink-lighter-1;
+            }
+            &-2 {
+                border-color: $pink-lighter-2;
+            }
+            &-3 {
+                border-color: $pink-lighter-3;
+            }
+            &-4 {
+                border-color: $pink-lighter-4;
+            }
+            &-5 {
+                border-color: $pink-lighter-5;
+            }
+            &-6 {
+                border-color: $pink-lighter-6;
+            }
+            &-7 {
+                border-color: $pink-lighter-7;
+            }
+            &-8 {
+                border-color: $pink-lighter-8;
+            }
+        }
+    }
+    &-orange {
+        border-color: $orange;
+
+        &-darker {
+            &-1 {
+                border-color: $orange-darker-1;
+            }
+            &-2 {
+                border-color: $orange-darker-2;
+            }
+            &-3 {
+                border-color: $orange-darker-3;
+            }
+            &-4 {
+                border-color: $orange-darker-4;
+            }
+            &-5 {
+                border-color: $orange-darker-5;
+            }
+            &-6 {
+                border-color: $orange-darker-6;
+            }
+            &-7 {
+                border-color: $orange-darker-7;
+            }
+            &-8 {
+                border-color: $orange-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                border-color: $orange-lighter-1;
+            }
+            &-2 {
+                border-color: $orange-lighter-2;
+            }
+            &-3 {
+                border-color: $orange-lighter-3;
+            }
+            &-4 {
+                border-color: $orange-lighter-4;
+            }
+            &-5 {
+                border-color: $orange-lighter-5;
+            }
+            &-6 {
+                border-color: $orange-lighter-6;
+            }
+            &-7 {
+                border-color: $orange-lighter-7;
+            }
+            &-8 {
+                border-color: $orange-lighter-8;
+            }
+        }
+    }
+    &-yellow {
+        border-color: $yellow;
+
+        &-darker {
+            &-1 {
+                border-color: $yellow-darker-1;
+            }
+            &-2 {
+                border-color: $yellow-darker-2;
+            }
+            &-3 {
+                border-color: $yellow-darker-3;
+            }
+            &-4 {
+                border-color: $yellow-darker-4;
+            }
+            &-5 {
+                border-color: $yellow-darker-5;
+            }
+            &-6 {
+                border-color: $yellow-darker-6;
+            }
+            &-7 {
+                border-color: $yellow-darker-7;
+            }
+            &-8 {
+                border-color: $yellow-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                border-color: $yellow-lighter-1;
+            }
+            &-2 {
+                border-color: $yellow-lighter-2;
+            }
+            &-3 {
+                border-color: $yellow-lighter-3;
+            }
+            &-4 {
+                border-color: $yellow-lighter-4;
+            }
+            &-5 {
+                border-color: $yellow-lighter-5;
+            }
+            &-6 {
+                border-color: $yellow-lighter-6;
+            }
+            &-7 {
+                border-color: $yellow-lighter-7;
+            }
+            &-8 {
+                border-color: $yellow-lighter-8;
+            }
+        }
+    }
+    &-green {
+        border-color: $green;
+
+        &-darker {
+            &-1 {
+                border-color: $green-darker-1;
+            }
+            &-2 {
+                border-color: $green-darker-2;
+            }
+            &-3 {
+                border-color: $green-darker-3;
+            }
+            &-4 {
+                border-color: $green-darker-4;
+            }
+            &-5 {
+                border-color: $green-darker-5;
+            }
+            &-6 {
+                border-color: $green-darker-6;
+            }
+            &-7 {
+                border-color: $green-darker-7;
+            }
+            &-8 {
+                border-color: $green-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                border-color: $green-lighter-1;
+            }
+            &-2 {
+                border-color: $green-lighter-2;
+            }
+            &-3 {
+                border-color: $green-lighter-3;
+            }
+            &-4 {
+                border-color: $green-lighter-4;
+            }
+            &-5 {
+                border-color: $green-lighter-5;
+            }
+            &-6 {
+                border-color: $green-lighter-6;
+            }
+            &-7 {
+                border-color: $green-lighter-7;
+            }
+            &-8 {
+                border-color: $green-lighter-8;
+            }
+        }
+    }
+    &-aqua {
+        border-color: $aqua;
+
+        &-darker {
+            &-1 {
+                border-color: $aqua-darker-1;
+            }
+            &-2 {
+                border-color: $aqua-darker-2;
+            }
+            &-3 {
+                border-color: $aqua-darker-3;
+            }
+            &-4 {
+                border-color: $aqua-darker-4;
+            }
+            &-5 {
+                border-color: $aqua-darker-5;
+            }
+            &-6 {
+                border-color: $aqua-darker-6;
+            }
+            &-7 {
+                border-color: $aqua-darker-7;
+            }
+            &-8 {
+                border-color: $aqua-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                border-color: $aqua-lighter-1;
+            }
+            &-2 {
+                border-color: $aqua-lighter-2;
+            }
+            &-3 {
+                border-color: $aqua-lighter-3;
+            }
+            &-4 {
+                border-color: $aqua-lighter-4;
+            }
+            &-5 {
+                border-color: $aqua-lighter-5;
+            }
+            &-6 {
+                border-color: $aqua-lighter-6;
+            }
+            &-7 {
+                border-color: $aqua-lighter-7;
+            }
+            &-8 {
+                border-color: $aqua-lighter-8;
+            }
+        }
+    }
+    &-sky {
+        border-color: $sky;
+
+        &-darker {
+            &-1 {
+                border-color: $sky-darker-1;
+            }
+            &-2 {
+                border-color: $sky-darker-2;
+            }
+            &-3 {
+                border-color: $sky-darker-3;
+            }
+            &-4 {
+                border-color: $sky-darker-4;
+            }
+            &-5 {
+                border-color: $sky-darker-5;
+            }
+            &-6 {
+                border-color: $sky-darker-6;
+            }
+            &-7 {
+                border-color: $sky-darker-7;
+            }
+            &-8 {
+                border-color: $sky-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                border-color: $sky-lighter-1;
+            }
+            &-2 {
+                border-color: $sky-lighter-2;
+            }
+            &-3 {
+                border-color: $sky-lighter-3;
+            }
+            &-4 {
+                border-color: $sky-lighter-4;
+            }
+            &-5 {
+                border-color: $sky-lighter-5;
+            }
+            &-6 {
+                border-color: $sky-lighter-6;
+            }
+            &-7 {
+                border-color: $sky-lighter-7;
+            }
+            &-8 {
+                border-color: $sky-lighter-8;
+            }
+        }
+    }
+    &-blue {
+        border-color: $blue;
+
+        &-darker {
+            &-1 {
+                border-color: $blue-darker-1;
+            }
+            &-2 {
+                border-color: $blue-darker-2;
+            }
+            &-3 {
+                border-color: $blue-darker-3;
+            }
+            &-4 {
+                border-color: $blue-darker-4;
+            }
+            &-5 {
+                border-color: $blue-darker-5;
+            }
+            &-6 {
+                border-color: $blue-darker-6;
+            }
+            &-7 {
+                border-color: $blue-darker-7;
+            }
+            &-8 {
+                border-color: $blue-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                border-color: $blue-lighter-1;
+            }
+            &-2 {
+                border-color: $blue-lighter-2;
+            }
+            &-3 {
+                border-color: $blue-lighter-3;
+            }
+            &-4 {
+                border-color: $blue-lighter-4;
+            }
+            &-5 {
+                border-color: $blue-lighter-5;
+            }
+            &-6 {
+                border-color: $blue-lighter-6;
+            }
+            &-7 {
+                border-color: $blue-lighter-7;
+            }
+            &-8 {
+                border-color: $blue-lighter-8;
+            }
+        }
+    }
+    &-violet {
+        border-color: $violet;
+
+        &-darker {
+            &-1 {
+                border-color: $violet-darker-1;
+            }
+            &-2 {
+                border-color: $violet-darker-2;
+            }
+            &-3 {
+                border-color: $violet-darker-3;
+            }
+            &-4 {
+                border-color: $violet-darker-4;
+            }
+            &-5 {
+                border-color: $violet-darker-5;
+            }
+            &-6 {
+                border-color: $violet-darker-6;
+            }
+            &-7 {
+                border-color: $violet-darker-7;
+            }
+            &-8 {
+                border-color: $violet-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                border-color: $violet-lighter-1;
+            }
+            &-2 {
+                border-color: $violet-lighter-2;
+            }
+            &-3 {
+                border-color: $violet-lighter-3;
+            }
+            &-4 {
+                border-color: $violet-lighter-4;
+            }
+            &-5 {
+                border-color: $violet-lighter-5;
+            }
+            &-6 {
+                border-color: $violet-lighter-6;
+            }
+            &-7 {
+                border-color: $violet-lighter-7;
+            }
+            &-8 {
+                border-color: $violet-lighter-8;
+            }
+        }
+    }
+    &-gray {
+        border-color: $gray;
+
+        &-darker {
+            &-1 {
+                border-color: $gray-darker-1;
+            }
+            &-2 {
+                border-color: $gray-darker-2;
+            }
+            &-3 {
+                border-color: $gray-darker-3;
+            }
+            &-4 {
+                border-color: $gray-darker-4;
+            }
+            &-5 {
+                border-color: $gray-darker-5;
+            }
+            &-6 {
+                border-color: $gray-darker-6;
+            }
+            &-7 {
+                border-color: $gray-darker-7;
+            }
+            &-8 {
+                border-color: $gray-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                border-color: $gray-lighter-1;
+            }
+            &-2 {
+                border-color: $gray-lighter-2;
+            }
+            &-3 {
+                border-color: $gray-lighter-3;
+            }
+            &-4 {
+                border-color: $gray-lighter-4;
+            }
+            &-5 {
+                border-color: $gray-lighter-5;
+            }
+            &-6 {
+                border-color: $gray-lighter-6;
+            }
+            &-7 {
+                border-color: $gray-lighter-7;
+            }
+            &-8 {
+                border-color: $gray-lighter-8;
+            }
+        }
+    }
+    &-dark {
+        border-color: $dark;
+    }
+    &-light {
+        border-color: $light;
+    }
+    &-transparent {
+        border-color: $transparent;
+    }
+}
+
+@mixin backgroundColor() {
+    &-pink {
+        background-color: $pink;
+
+        &-darker {
+            &-1 {
+                background-color: $pink-darker-1;
+            }
+            &-2 {
+                background-color: $pink-darker-2;
+            }
+            &-3 {
+                background-color: $pink-darker-3;
+            }
+            &-4 {
+                background-color: $pink-darker-4;
+            }
+            &-5 {
+                background-color: $pink-darker-5;
+            }
+            &-6 {
+                background-color: $pink-darker-6;
+            }
+            &-7 {
+                background-color: $pink-darker-7;
+            }
+            &-8 {
+                background-color: $pink-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                background-color: $pink-lighter-1;
+            }
+            &-2 {
+                background-color: $pink-lighter-2;
+            }
+            &-3 {
+                background-color: $pink-lighter-3;
+            }
+            &-4 {
+                background-color: $pink-lighter-4;
+            }
+            &-5 {
+                background-color: $pink-lighter-5;
+            }
+            &-6 {
+                background-color: $pink-lighter-6;
+            }
+            &-7 {
+                background-color: $pink-lighter-7;
+            }
+            &-8 {
+                background-color: $pink-lighter-8;
+            }
+        }
+    }
+    &-red {
+        background-color: $red;
+
+        &-darker {
+            &-1 {
+                background-color: $red-darker-1;
+            }
+            &-2 {
+                background-color: $red-darker-2;
+            }
+            &-3 {
+                background-color: $red-darker-3;
+            }
+            &-4 {
+                background-color: $red-darker-4;
+            }
+            &-5 {
+                background-color: $red-darker-5;
+            }
+            &-6 {
+                background-color: $red-darker-6;
+            }
+            &-7 {
+                background-color: $red-darker-7;
+            }
+            &-8 {
+                background-color: $red-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                background-color: $red-lighter-1;
+            }
+            &-2 {
+                background-color: $red-lighter-2;
+            }
+            &-3 {
+                background-color: $red-lighter-3;
+            }
+            &-4 {
+                background-color: $red-lighter-4;
+            }
+            &-5 {
+                background-color: $red-lighter-5;
+            }
+            &-6 {
+                background-color: $red-lighter-6;
+            }
+            &-7 {
+                background-color: $red-lighter-7;
+            }
+            &-8 {
+                background-color: $red-lighter-8;
+            }
+        }
+    }
+    &-orange {
+        background-color: $orange;
+
+        &-darker {
+            &-1 {
+                background-color: $orange-darker-1;
+            }
+            &-2 {
+                background-color: $orange-darker-2;
+            }
+            &-3 {
+                background-color: $orange-darker-3;
+            }
+            &-4 {
+                background-color: $orange-darker-4;
+            }
+            &-5 {
+                background-color: $orange-darker-5;
+            }
+            &-6 {
+                background-color: $orange-darker-6;
+            }
+            &-7 {
+                background-color: $orange-darker-7;
+            }
+            &-8 {
+                background-color: $orange-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                background-color: $orange-lighter-1;
+            }
+            &-2 {
+                background-color: $orange-lighter-2;
+            }
+            &-3 {
+                background-color: $orange-lighter-3;
+            }
+            &-4 {
+                background-color: $orange-lighter-4;
+            }
+            &-5 {
+                background-color: $orange-lighter-5;
+            }
+            &-6 {
+                background-color: $orange-lighter-6;
+            }
+            &-7 {
+                background-color: $orange-lighter-7;
+            }
+            &-8 {
+                background-color: $orange-lighter-8;
+            }
+        }
+    }
+    &-yellow {
+        background-color: $yellow;
+        color: $dark;
+
+        &-darker {
+            &-1 {
+                background-color: $yellow-darker-1;
+            }
+            &-2 {
+                background-color: $yellow-darker-2;
+            }
+            &-3 {
+                background-color: $yellow-darker-3;
+            }
+            &-4 {
+                background-color: $yellow-darker-4;
+            }
+            &-5 {
+                background-color: $yellow-darker-5;
+            }
+            &-6 {
+                background-color: $yellow-darker-6;
+            }
+            &-7 {
+                background-color: $yellow-darker-7;
+            }
+            &-8 {
+                background-color: $yellow-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                background-color: $yellow-lighter-1;
+            }
+            &-2 {
+                background-color: $yellow-lighter-2;
+            }
+            &-3 {
+                background-color: $yellow-lighter-3;
+            }
+            &-4 {
+                background-color: $yellow-lighter-4;
+            }
+            &-5 {
+                background-color: $yellow-lighter-5;
+            }
+            &-6 {
+                background-color: $yellow-lighter-6;
+            }
+            &-7 {
+                background-color: $yellow-lighter-7;
+            }
+            &-8 {
+                background-color: $yellow-lighter-8;
+            }
+        }
+    }
+    &-green {
+        background-color: $green;
+
+        &-darker {
+            &-1 {
+                background-color: $green-darker-1;
+            }
+            &-2 {
+                background-color: $green-darker-2;
+            }
+            &-3 {
+                background-color: $green-darker-3;
+            }
+            &-4 {
+                background-color: $green-darker-4;
+            }
+            &-5 {
+                background-color: $green-darker-5;
+            }
+            &-6 {
+                background-color: $green-darker-6;
+            }
+            &-7 {
+                background-color: $green-darker-7;
+            }
+            &-8 {
+                background-color: $green-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                background-color: $green-lighter-1;
+            }
+            &-2 {
+                background-color: $green-lighter-2;
+            }
+            &-3 {
+                background-color: $green-lighter-3;
+            }
+            &-4 {
+                background-color: $green-lighter-4;
+            }
+            &-5 {
+                background-color: $green-lighter-5;
+            }
+            &-6 {
+                background-color: $green-lighter-6;
+            }
+            &-7 {
+                background-color: $green-lighter-7;
+            }
+            &-8 {
+                background-color: $green-lighter-8;
+            }
+        }
+    }
+    &-aqua {
+        background-color: $aqua;
+
+        &-darker {
+            &-1 {
+                background-color: $aqua-darker-1;
+            }
+            &-2 {
+                background-color: $aqua-darker-2;
+            }
+            &-3 {
+                background-color: $aqua-darker-3;
+            }
+            &-4 {
+                background-color: $aqua-darker-4;
+            }
+            &-5 {
+                background-color: $aqua-darker-5;
+            }
+            &-6 {
+                background-color: $aqua-darker-6;
+            }
+            &-7 {
+                background-color: $aqua-darker-7;
+            }
+            &-8 {
+                background-color: $aqua-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                background-color: $aqua-lighter-1;
+            }
+            &-2 {
+                background-color: $aqua-lighter-2;
+            }
+            &-3 {
+                background-color: $aqua-lighter-3;
+            }
+            &-4 {
+                background-color: $aqua-lighter-4;
+            }
+            &-5 {
+                background-color: $aqua-lighter-5;
+            }
+            &-6 {
+                background-color: $aqua-lighter-6;
+            }
+            &-7 {
+                background-color: $aqua-lighter-7;
+            }
+            &-8 {
+                background-color: $aqua-lighter-8;
+            }
+        }
+    }
+    &-sky {
+        background-color: $sky;
+
+        &-darker {
+            &-1 {
+                background-color: $sky-darker-1;
+            }
+            &-2 {
+                background-color: $sky-darker-2;
+            }
+            &-3 {
+                background-color: $sky-darker-3;
+            }
+            &-4 {
+                background-color: $sky-darker-4;
+            }
+            &-5 {
+                background-color: $sky-darker-5;
+            }
+            &-6 {
+                background-color: $sky-darker-6;
+            }
+            &-7 {
+                background-color: $sky-darker-7;
+            }
+            &-8 {
+                background-color: $sky-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                background-color: $sky-lighter-1;
+            }
+            &-2 {
+                background-color: $sky-lighter-2;
+            }
+            &-3 {
+                background-color: $sky-lighter-3;
+            }
+            &-4 {
+                background-color: $sky-lighter-4;
+            }
+            &-5 {
+                background-color: $sky-lighter-5;
+            }
+            &-6 {
+                background-color: $sky-lighter-6;
+            }
+            &-7 {
+                background-color: $sky-lighter-7;
+            }
+            &-8 {
+                background-color: $sky-lighter-8;
+            }
+        }
+    }
+    &-blue {
+        background-color: $blue;
+
+        &-darker {
+            &-1 {
+                background-color: $blue-darker-1;
+            }
+            &-2 {
+                background-color: $blue-darker-2;
+            }
+            &-3 {
+                background-color: $blue-darker-3;
+            }
+            &-4 {
+                background-color: $blue-darker-4;
+            }
+            &-5 {
+                background-color: $blue-darker-5;
+            }
+            &-6 {
+                background-color: $blue-darker-6;
+            }
+            &-7 {
+                background-color: $blue-darker-7;
+            }
+            &-8 {
+                background-color: $blue-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                background-color: $blue-lighter-1;
+            }
+            &-2 {
+                background-color: $blue-lighter-2;
+            }
+            &-3 {
+                background-color: $blue-lighter-3;
+            }
+            &-4 {
+                background-color: $blue-lighter-4;
+            }
+            &-5 {
+                background-color: $blue-lighter-5;
+            }
+            &-6 {
+                background-color: $blue-lighter-6;
+            }
+            &-7 {
+                background-color: $blue-lighter-7;
+            }
+            &-8 {
+                background-color: $blue-lighter-8;
+            }
+        }
+    }
+    &-violet {
+        background-color: $violet;
+
+        &-darker {
+            &-1 {
+                background-color: $violet-darker-1;
+            }
+            &-2 {
+                background-color: $violet-darker-2;
+            }
+            &-3 {
+                background-color: $violet-darker-3;
+            }
+            &-4 {
+                background-color: $violet-darker-4;
+            }
+            &-5 {
+                background-color: $violet-darker-5;
+            }
+            &-6 {
+                background-color: $violet-darker-6;
+            }
+            &-7 {
+                background-color: $violet-darker-7;
+            }
+            &-8 {
+                background-color: $violet-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                background-color: $violet-lighter-1;
+            }
+            &-2 {
+                background-color: $violet-lighter-2;
+            }
+            &-3 {
+                background-color: $violet-lighter-3;
+            }
+            &-4 {
+                background-color: $violet-lighter-4;
+            }
+            &-5 {
+                background-color: $violet-lighter-5;
+            }
+            &-6 {
+                background-color: $violet-lighter-6;
+            }
+            &-7 {
+                background-color: $violet-lighter-7;
+            }
+            &-8 {
+                background-color: $violet-lighter-8;
+            }
+        }
+    }
+    &-gray {
+        background-color: $gray;
+
+        &-darker {
+            &-1 {
+                background-color: $gray-darker-1;
+            }
+            &-2 {
+                background-color: $gray-darker-2;
+            }
+            &-3 {
+                background-color: $gray-darker-3;
+            }
+            &-4 {
+                background-color: $gray-darker-4;
+            }
+            &-5 {
+                background-color: $gray-darker-5;
+            }
+            &-6 {
+                background-color: $gray-darker-6;
+            }
+            &-7 {
+                background-color: $gray-darker-7;
+            }
+            &-8 {
+                background-color: $gray-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                background-color: $gray-lighter-1;
+            }
+            &-2 {
+                background-color: $gray-lighter-2;
+            }
+            &-3 {
+                background-color: $gray-lighter-3;
+            }
+            &-4 {
+                background-color: $gray-lighter-4;
+            }
+            &-5 {
+                background-color: $gray-lighter-5;
+            }
+            &-6 {
+                background-color: $gray-lighter-6;
+            }
+            &-7 {
+                background-color: $gray-lighter-7;
+            }
+            &-8 {
+                background-color: $gray-lighter-8;
+            }
+        }
+    }
+    &-dark {
+        background-color: $dark;
+    }
+    &-light {
+        background-color: $light;
+    }
+    &-transparent {
+        background-color: $transparent;
+    }
+}
+
+@mixin color() {
+    &-pink {
+        color: $pink;
+
+        &-darker {
+            &-1 {
+                color: $pink-darker-1;
+            }
+            &-2 {
+                color: $pink-darker-2;
+            }
+            &-3 {
+                color: $pink-darker-3;
+            }
+            &-4 {
+                color: $pink-darker-4;
+            }
+            &-5 {
+                color: $pink-darker-5;
+            }
+            &-6 {
+                color: $pink-darker-6;
+            }
+            &-7 {
+                color: $pink-darker-7;
+            }
+            &-8 {
+                color: $pink-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                color: $pink-lighter-1;
+            }
+            &-2 {
+                color: $pink-lighter-2;
+            }
+            &-3 {
+                color: $pink-lighter-3;
+            }
+            &-4 {
+                color: $pink-lighter-4;
+            }
+            &-5 {
+                color: $pink-lighter-5;
+            }
+            &-6 {
+                color: $pink-lighter-6;
+            }
+            &-7 {
+                color: $pink-lighter-7;
+            }
+            &-8 {
+                color: $pink-lighter-8;
+            }
+        }
+    }
+    &-red {
+        color: $red;
+
+        &-darker {
+            &-1 {
+                color: $red-darker-1;
+            }
+            &-2 {
+                color: $red-darker-2;
+            }
+            &-3 {
+                color: $red-darker-3;
+            }
+            &-4 {
+                color: $red-darker-4;
+            }
+            &-5 {
+                color: $red-darker-5;
+            }
+            &-6 {
+                color: $red-darker-6;
+            }
+            &-7 {
+                color: $red-darker-7;
+            }
+            &-8 {
+                color: $red-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                color: $red-lighter-1;
+            }
+            &-2 {
+                color: $red-lighter-2;
+            }
+            &-3 {
+                color: $red-lighter-3;
+            }
+            &-4 {
+                color: $red-lighter-4;
+            }
+            &-5 {
+                color: $red-lighter-5;
+            }
+            &-6 {
+                color: $red-lighter-6;
+            }
+            &-7 {
+                color: $red-lighter-7;
+            }
+            &-8 {
+                color: $red-lighter-8;
+            }
+        }
+    }
+    &-orange {
+        color: $orange;
+
+        &-darker {
+            &-1 {
+                color: $orange-darker-1;
+            }
+            &-2 {
+                color: $orange-darker-2;
+            }
+            &-3 {
+                color: $orange-darker-3;
+            }
+            &-4 {
+                color: $orange-darker-4;
+            }
+            &-5 {
+                color: $orange-darker-5;
+            }
+            &-6 {
+                color: $orange-darker-6;
+            }
+            &-7 {
+                color: $orange-darker-7;
+            }
+            &-8 {
+                color: $orange-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                color: $orange-lighter-1;
+            }
+            &-2 {
+                color: $orange-lighter-2;
+            }
+            &-3 {
+                color: $orange-lighter-3;
+            }
+            &-4 {
+                color: $orange-lighter-4;
+            }
+            &-5 {
+                color: $orange-lighter-5;
+            }
+            &-6 {
+                color: $orange-lighter-6;
+            }
+            &-7 {
+                color: $orange-lighter-7;
+            }
+            &-8 {
+                color: $orange-lighter-8;
+            }
+        }
+    }
+    &-yellow {
+        color: $yellow;
+
+        &-darker {
+            &-1 {
+                color: $yellow-darker-1;
+            }
+            &-2 {
+                color: $yellow-darker-2;
+            }
+            &-3 {
+                color: $yellow-darker-3;
+            }
+            &-4 {
+                color: $yellow-darker-4;
+            }
+            &-5 {
+                color: $yellow-darker-5;
+            }
+            &-6 {
+                color: $yellow-darker-6;
+            }
+            &-7 {
+                color: $yellow-darker-7;
+            }
+            &-8 {
+                color: $yellow-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                color: $yellow-lighter-1;
+            }
+            &-2 {
+                color: $yellow-lighter-2;
+            }
+            &-3 {
+                color: $yellow-lighter-3;
+            }
+            &-4 {
+                color: $yellow-lighter-4;
+            }
+            &-5 {
+                color: $yellow-lighter-5;
+            }
+            &-6 {
+                color: $yellow-lighter-6;
+            }
+            &-7 {
+                color: $yellow-lighter-7;
+            }
+            &-8 {
+                color: $yellow-lighter-8;
+            }
+        }
+    }
+    &-green {
+        color: $green;
+
+        &-darker {
+            &-1 {
+                color: $green-darker-1;
+            }
+            &-2 {
+                color: $green-darker-2;
+            }
+            &-3 {
+                color: $green-darker-3;
+            }
+            &-4 {
+                color: $green-darker-4;
+            }
+            &-5 {
+                color: $green-darker-5;
+            }
+            &-6 {
+                color: $green-darker-6;
+            }
+            &-7 {
+                color: $green-darker-7;
+            }
+            &-8 {
+                color: $green-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                color: $green-lighter-1;
+            }
+            &-2 {
+                color: $green-lighter-2;
+            }
+            &-3 {
+                color: $green-lighter-3;
+            }
+            &-4 {
+                color: $green-lighter-4;
+            }
+            &-5 {
+                color: $green-lighter-5;
+            }
+            &-6 {
+                color: $green-lighter-6;
+            }
+            &-7 {
+                color: $green-lighter-7;
+            }
+            &-8 {
+                color: $green-lighter-8;
+            }
+        }
+    }
+    &-aqua {
+        color: $aqua;
+
+        &-darker {
+            &-1 {
+                color: $aqua-darker-1;
+            }
+            &-2 {
+                color: $aqua-darker-2;
+            }
+            &-3 {
+                color: $aqua-darker-3;
+            }
+            &-4 {
+                color: $aqua-darker-4;
+            }
+            &-5 {
+                color: $aqua-darker-5;
+            }
+            &-6 {
+                color: $aqua-darker-6;
+            }
+            &-7 {
+                color: $aqua-darker-7;
+            }
+            &-8 {
+                color: $aqua-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                color: $aqua-lighter-1;
+            }
+            &-2 {
+                color: $aqua-lighter-2;
+            }
+            &-3 {
+                color: $aqua-lighter-3;
+            }
+            &-4 {
+                color: $aqua-lighter-4;
+            }
+            &-5 {
+                color: $aqua-lighter-5;
+            }
+            &-6 {
+                color: $aqua-lighter-6;
+            }
+            &-7 {
+                color: $aqua-lighter-7;
+            }
+            &-8 {
+                color: $aqua-lighter-8;
+            }
+        }
+    }
+    &-sky {
+        color: $sky;
+
+        &-darker {
+            &-1 {
+                color: $sky-darker-1;
+            }
+            &-2 {
+                color: $sky-darker-2;
+            }
+            &-3 {
+                color: $sky-darker-3;
+            }
+            &-4 {
+                color: $sky-darker-4;
+            }
+            &-5 {
+                color: $sky-darker-5;
+            }
+            &-6 {
+                color: $sky-darker-6;
+            }
+            &-7 {
+                color: $sky-darker-7;
+            }
+            &-8 {
+                color: $sky-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                color: $sky-lighter-1;
+            }
+            &-2 {
+                color: $sky-lighter-2;
+            }
+            &-3 {
+                color: $sky-lighter-3;
+            }
+            &-4 {
+                color: $sky-lighter-4;
+            }
+            &-5 {
+                color: $sky-lighter-5;
+            }
+            &-6 {
+                color: $sky-lighter-6;
+            }
+            &-7 {
+                color: $sky-lighter-7;
+            }
+            &-8 {
+                color: $sky-lighter-8;
+            }
+        }
+    }
+    &-blue {
+        color: $blue;
+
+        &-darker {
+            &-1 {
+                color: $blue-darker-1;
+            }
+            &-2 {
+                color: $blue-darker-2;
+            }
+            &-3 {
+                color: $blue-darker-3;
+            }
+            &-4 {
+                color: $blue-darker-4;
+            }
+            &-5 {
+                color: $blue-darker-5;
+            }
+            &-6 {
+                color: $blue-darker-6;
+            }
+            &-7 {
+                color: $blue-darker-7;
+            }
+            &-8 {
+                color: $blue-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                color: $blue-lighter-1;
+            }
+            &-2 {
+                color: $blue-lighter-2;
+            }
+            &-3 {
+                color: $blue-lighter-3;
+            }
+            &-4 {
+                color: $blue-lighter-4;
+            }
+            &-5 {
+                color: $blue-lighter-5;
+            }
+            &-6 {
+                color: $blue-lighter-6;
+            }
+            &-7 {
+                color: $blue-lighter-7;
+            }
+            &-8 {
+                color: $blue-lighter-8;
+            }
+        }
+    }
+    &-violet {
+        color: $violet;
+
+        &-darker {
+            &-1 {
+                color: $violet-darker-1;
+            }
+            &-2 {
+                color: $violet-darker-2;
+            }
+            &-3 {
+                color: $violet-darker-3;
+            }
+            &-4 {
+                color: $violet-darker-4;
+            }
+            &-5 {
+                color: $violet-darker-5;
+            }
+            &-6 {
+                color: $violet-darker-6;
+            }
+            &-7 {
+                color: $violet-darker-7;
+            }
+            &-8 {
+                color: $violet-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                color: $violet-lighter-1;
+            }
+            &-2 {
+                color: $violet-lighter-2;
+            }
+            &-3 {
+                color: $violet-lighter-3;
+            }
+            &-4 {
+                color: $violet-lighter-4;
+            }
+            &-5 {
+                color: $violet-lighter-5;
+            }
+            &-6 {
+                color: $violet-lighter-6;
+            }
+            &-7 {
+                color: $violet-lighter-7;
+            }
+            &-8 {
+                color: $violet-lighter-8;
+            }
+        }
+    }
+    &-gray {
+        color: $gray;
+
+        &-darker {
+            &-1 {
+                color: $gray-darker-1;
+            }
+            &-2 {
+                color: $gray-darker-2;
+            }
+            &-3 {
+                color: $gray-darker-3;
+            }
+            &-4 {
+                color: $gray-darker-4;
+            }
+            &-5 {
+                color: $gray-darker-5;
+            }
+            &-6 {
+                color: $gray-darker-6;
+            }
+            &-7 {
+                color: $gray-darker-7;
+            }
+            &-8 {
+                color: $gray-darker-8;
+            }
+        }
+        &-lighter {
+            &-1 {
+                color: $gray-lighter-1;
+            }
+            &-2 {
+                color: $gray-lighter-2;
+            }
+            &-3 {
+                color: $gray-lighter-3;
+            }
+            &-4 {
+                color: $gray-lighter-4;
+            }
+            &-5 {
+                color: $gray-lighter-5;
+            }
+            &-6 {
+                color: $gray-lighter-6;
+            }
+            &-7 {
+                color: $gray-lighter-7;
+            }
+            &-8 {
+                color: $gray-lighter-8;
+            }
+        }
+    }
+    &-dark {
+        color: $dark;
+    }
+    &-light {
+        color: $light;
+    }
+    &-transparent {
+        color: $transparent;
+    }
+}
+
+@mixin width() {
+    &-100 {
+        width: 100%;
+    }
+    &-92 {
+        width: 92%;
+    }
+    &-90 {
+        width: 90%;
+    }
+    &-87 {
+        width: 87%;
+    }
+    &-83 {
+        width: 83%;
+    }
+    &-80 {
+        width: 80%;
+    }
+    &-75 {
+        width: 75%;
+    }
+    &-66 {
+        width: 66%;
+    }
+    &-50 {
+        width: 50%;
+    }
+    &-33 {
+        width: 33.3%;
+    }
+    &-25 {
+        width: 25%;
+    }
+    &-20 {
+        width: 20%;
+    }
+    &-16 {
+        width: 16.6%;
+    }
+    &-12 {
+        width: 12.5%;
+    }
+    &-10 {
+        width: 10%;
+    }
+    &-8 {
+        width: 8.2%;
+    }
+}
+
+

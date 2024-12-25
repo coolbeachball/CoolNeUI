@@ -1,0 +1,22 @@
+@import '../base/variables';
+
+.text {
+    &-xxl {
+        font-size: $xxl;
+    }
+    &-xl {
+        font-size: $xl;
+    }
+    &-lg {
+        font-size: $lg;
+    }
+    &-md {
+        font-size: $md;
+    }
+    &-sm {
+        font-size: $sm;
+    }
+    &-xs {
+        font-size: $xs;
+    }
+}

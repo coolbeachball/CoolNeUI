@@ -1,0 +1,15 @@
+.no-list > * {
+    list-style-type: none;
+}
+
+.list {
+    &-roman > * {
+        list-style-type:lower-roman
+    }
+    &-decimal > * {
+        list-style-type: decimal;
+    }
+    &-point > * {
+        list-style-type: circle;
+    }
+}

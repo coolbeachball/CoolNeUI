@@ -1,0 +1,12 @@
+@import '../base/mixins';
+
+.badge {
+    background-color: $gray;
+    color: $light;
+    border: none;
+    font-size: 1rem;
+    border-radius: 0.2rem !important;
+    padding: 0.2rem 0.6rem !important;
+
+    @include backgroundColor(); 
+}

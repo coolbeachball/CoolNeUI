@@ -1,0 +1,31 @@
+@import '../base/variables';
+
+.card {
+  padding: $md;
+  border: 1px solid $gray;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: $light;
+  
+  &-header {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: $sm;
+    color: $dark;
+  }
+  
+  &-body {
+    font-size: 1rem;
+    color: $gray;
+  }
+  
+  &-footer {
+    margin-top: $md;
+    text-align: right;
+  }
+  
+  &-hover:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+  

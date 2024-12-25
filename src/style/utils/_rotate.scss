@@ -1,0 +1,41 @@
+.rotate {
+    &-0 {
+        transform: rotate(0deg);
+    }
+    &-30 {
+        transform: rotate(30deg);
+    }
+    &-60 {
+        transform: rotate(60deg);
+    }
+    &-90 {
+        transform: rotate(90deg);
+    }
+    &-120 {
+        transform: rotate(120deg);
+    }
+    &-150 {
+        transform: rotate(150deg);
+    }
+    &-180 {
+        transform: rotate(180deg);
+    }
+    &-210 {
+        transform: rotate(210deg);
+    }
+    &-240 {
+        transform: rotate(240deg);
+    }
+    &-270 {
+        transform: rotate(270deg);
+    }
+    &-300 {
+        transform: rotate(300deg);
+    }
+    &-330 {
+        transform: rotate(330deg);
+    }
+    &-360 {
+        transform: rotate(360deg);
+    }
+}

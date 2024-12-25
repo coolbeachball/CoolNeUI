@@ -1,0 +1,89 @@
+@import './variables';
+
+/* reset.css */
+
+/* Remove all default margins, paddings, and borders */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+  
+/* Set default font styles */
+html {
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 100%; /* Default to 16px */
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in iOS */
+}
+  
+/* Reset body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+  
+/* Reset heading and paragraph margins */
+h1, h2, h3, h4, h5, h6, p {
+    margin: 1em;
+}
+  
+/* Remove default list styles */
+ul, ol {
+    list-style: none;
+}
+  
+/* Remove quotes for blockquote and q elements */
+blockquote, q {
+    quotes: none;
+}
+  
+blockquote::before, blockquote::after,
+q::before, q::after {
+    content: '';
+}
+  
+/* Reset table styles */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+  
+/* Reset image and media defaults */
+img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+  
+/* Remove link underlines */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+  
+/* Reset button and input styles */
+button, input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    appearance: none;
+}
+  
+/* Make forms easier to use on mobile devices */
+textarea {
+    resize: none;
+}
+  
+button {
+    cursor: pointer;
+}
+  
+  

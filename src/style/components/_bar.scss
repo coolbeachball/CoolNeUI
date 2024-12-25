@@ -1,0 +1,11 @@
+@import '../base/variables';
+@import '../base/mixins';
+
+.bar {
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+
+    @include color();
+    @include width();
+}
+

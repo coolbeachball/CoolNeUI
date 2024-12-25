@@ -1,0 +1,13 @@
+@import '../base/_variables.scss';
+
+.text-shadow {
+    text-shadow: 1px 1px 5px $dark;
+}
+
+.shadow {
+    box-shadow: 2px 0 5px $dark;
+}
+
+.filter {
+    filter: drop-shadow(0 0 5px $dark) ;
+}

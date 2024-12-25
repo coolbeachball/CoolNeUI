@@ -1,0 +1,21 @@
+.view {
+    &-100 {
+        opacity: 1;
+    }
+
+    &-75 {
+        opacity: 0.75;
+    }
+
+    &-50 {
+        opacity: 0.5;
+    }
+
+    &-25 {
+        opacity: 0.24;
+    }
+}
+
+.invizible {
+    opacity: 0;
+}

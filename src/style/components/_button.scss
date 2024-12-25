@@ -1,0 +1,72 @@
+@import '../base/mixins';
+
+.btn {
+    background-color: $gray;
+    color: $light;
+    border: none;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    padding: 0.2rem 0.6rem;
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    @include backgroundColor();
+
+    &-border {
+        background-color: transparent;
+        border: 0.1rem solid $dark;
+        border-radius: 0.2rem;
+        padding: 0.2rem 0.6rem;
+
+        &-pink {
+            border-color: $pink;
+            color: $pink;
+        }
+        &-red {
+            border-color: $red;
+            color: $red;
+        }
+        &-orange {
+            border-color: $orange;
+            color: $orange;
+        }
+        &-yellow {
+            border-color: $yellow;
+            color: $yellow;
+        }
+        &-green {
+            border-color: $green;
+            color: $green;
+        }
+        &-aqua {
+            border-color: $aqua;
+            color: $aqua;
+        }
+        &-sky {
+            border-color: $sky;
+            color: $sky;
+        }
+        &-blue {
+            border-color: $blue;
+            color: $blue;
+        }
+        &-violet {
+            border-color: $violet;
+            color: $violet;
+        }
+        &-gray {
+            border-color: $gray;
+            color: $gray;
+        }
+        &-dark {
+            border-color: $dark;
+            color: $dark;
+        }
+        &-light {
+            border-color: $light;
+            color: $light;
+        }
+    }
+}
