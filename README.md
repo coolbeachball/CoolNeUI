@@ -1,8 +1,9 @@
 <link rel="stylesheet" href="./coolneui.css">
 
-<img src="./images/CoolNeUI.svg" als="CoolNeUI logo" class="x-25" />
+<img src="./public/CoolNeUI.svg" alt="CoolNeUI logo" class="x-25 m-xl" />
 
-# <p class="text-xl italic geometric"><span class="text-blue">Cool</span><span class="text-red">Ne</span><span class="text-yellow">UI</span></p>
+
+# <p class="text-xl italic geometric m-0"><span class="text-blue">Co</span><span class="text-green">ol</span></span><span class="text-red">Ne</span><span class="text-yellow">UI</span></p>
 ## Art Made Easy
 
 **CoolNeUI** is a free and open-source **CSS framework** developed by **CoolBeachBall**.
@@ -1622,11 +1623,11 @@ CoolNeUI provides simple, reusable animation utilities to add dynamic effects to
 **Bounce**
 ```html
 <div class="animation animation-bounce duration-15 ease-in-out infinite x-16">
-  <img src="./images/CoolNeUI.svg" alt="logo">
+  <img src="./public/CoolNeUI.svg" alt="logo">
 </div>
 ```
 <div class="animation animation-bounce duration-15 ease-in-out infinite x-16">
-  <img src="./images/CoolNeUI.svg" alt="logo">
+  <img src="./public/CoolNeUI.svg" alt="logo">
 </div>
 
 ---
@@ -1634,11 +1635,11 @@ CoolNeUI provides simple, reusable animation utilities to add dynamic effects to
 **Shake**
 ```html
 <div class="animation animation-shake duration-15 ease-in-out infinite x-16">
-  <img src="./images/CoolNeUI.svg" alt="logo">
+  <img src="./public/CoolNeUI.svg" alt="logo">
 </div>
 ```
 <div class="animation animation-shake duration-15 ease-in-out infinite x-16">
-  <img src="./images/CoolNeUI.svg" alt="logo">
+  <img src="./public/CoolNeUI.svg" alt="logo">
 </div>
 
 ---
@@ -1646,11 +1647,11 @@ CoolNeUI provides simple, reusable animation utilities to add dynamic effects to
 **Scale**
 ```html
 <div class="animation animation-scale duration-15 ease-in-out infinite x-16">
-  <img src="./images/CoolNeUI.svg" alt="logo">
+  <img src="./public/CoolNeUI.svg" alt="logo">
 </div>
 ```
 <div class="animation animation-scale duration-15 ease-in-out infinite x-16">
-  <img src="./images/CoolNeUI.svg" alt="logo">
+  <img src="./public/CoolNeUI.svg" alt="logo">
 </div>
 
 ---
@@ -1658,11 +1659,11 @@ CoolNeUI provides simple, reusable animation utilities to add dynamic effects to
 **Spin**
 ```html
 <div class="animation animation-spin duration-15 ease-in-out infinite x-16">
-  <img src="./images/CoolNeUI.svg" alt="logo">
+  <img src="./public/CoolNeUI.svg" alt="logo">
 </div>
 ```
 <div class="animation animation-spin duration-15 ease-in-out infinite x-16">
-  <img src="./images/CoolNeUI.svg" alt="logo">
+  <img src="./public/CoolNeUI.svg" alt="logo">
 </div>
 
 ---
@@ -1670,11 +1671,11 @@ CoolNeUI provides simple, reusable animation utilities to add dynamic effects to
 **Fade**
 ```html
 <div class="animation animation-fade duration-15 ease-in-out infinite x-16">
-  <img src="./images/CoolNeUI.svg" alt="logo">
+  <img src="./public/CoolNeUI.svg" alt="logo">
 </div>
 ```
 <div class="animation animation-fade duration-15 ease-in-out infinite x-16">
-  <img src="./images/CoolNeUI.svg" alt="logo">
+  <img src="./public/CoolNeUI.svg" alt="logo">
 </div>
 
 ---
@@ -1682,11 +1683,11 @@ CoolNeUI provides simple, reusable animation utilities to add dynamic effects to
 **Slide**
 ```html
 <div class="animation animation-slide duration-15 ease-in-out infinite x-16">
-  <img src="./images/CoolNeUI.svg" alt="logo">
+  <img src="./public/CoolNeUI.svg" alt="logo">
 </div>
 ```
 <div class="animation animation-slide duration-15 ease-in-out infinite x-16">
-  <img src="./images/CoolNeUI.svg" alt="logo">
+  <img src="./public/CoolNeUI.svg" alt="logo">
 </div>
 
 ---
@@ -1694,11 +1695,11 @@ CoolNeUI provides simple, reusable animation utilities to add dynamic effects to
 **Slide-up**
 ```html
 <div class="animation animation-slide-up duration-15 ease-in-out infinite x-16">
-  <img src="./images/CoolNeUI.svg" alt="logo">
+  <img src="./public/CoolNeUI.svg" alt="logo">
 </div>
 ```
 <div class="animation animation-slide-up duration-15 ease-in-out infinite x-16">
-  <img src="./images/CoolNeUI.svg" alt="logo">
+  <img src="./public/CoolNeUI.svg" alt="logo">
 </div>
 
 ---
@@ -1706,11 +1707,11 @@ CoolNeUI provides simple, reusable animation utilities to add dynamic effects to
 **Slide-down**
 ```html
 <div class="animation animation-slide-down duration-15 ease-in-out infinite x-16">
-  <img src="./images/CoolNeUI.svg" alt="logo">
+  <img src="./public/CoolNeUI.svg" alt="logo">
 </div>
 ```
 <div class="animation animation-slide-down duration-15 ease-in-out infinite x-16">
-  <img src="./images/CoolNeUI.svg" alt="logo">
+  <img src="./public/CoolNeUI.svg" alt="logo">
 </div>
 
 ---
@@ -1718,11 +1719,11 @@ CoolNeUI provides simple, reusable animation utilities to add dynamic effects to
 **Slide-left**
 ```html
 <div class="animation animation-slide-left duration-15 ease-in-out infinite x-16">
-  <img src="./images/CoolNeUI.svg" alt="logo">
+  <img src="./public/CoolNeUI.svg" alt="logo">
 </div>
 ```
 <div class="animation animation-slide-left duration-15 ease-in-out infinite x-16">
-  <img src="./images/CoolNeUI.svg" alt="logo">
+  <img src="./public/CoolNeUI.svg" alt="logo">
 </div>
 
 ---
@@ -1730,11 +1731,11 @@ CoolNeUI provides simple, reusable animation utilities to add dynamic effects to
 **Slide-right**
 ```html
 <div class="animation animation-slide-right duration-15 ease-in-out infinite x-16">
-  <img src="./images/CoolNeUI.svg" alt="logo">
+  <img src="./public/CoolNeUI.svg" alt="logo">
 </div>
 ```
 <div class="animation animation-slide-right duration-15 ease-in-out infinite x-16">
-  <img src="./images/CoolNeUI.svg" alt="logo">
+  <img src="./public/CoolNeUI.svg" alt="logo">
 </div>
 
 ---
