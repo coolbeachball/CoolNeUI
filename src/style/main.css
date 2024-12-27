@@ -549,15 +549,6 @@ button {
   color: transparent;
 }
 .bar-dark {
-  background-color: #222224;
-}
-.bar-light {
-  background-color: #F3F3FC;
-}
-.bar-transparent {
-  background-color: transparent;
-}
-.bar-dark {
   color: #222224;
 }
 .bar-light {
@@ -1777,15 +1768,6 @@ button {
 }
 .text-transparent {
   color: transparent;
-}
-.text-dark {
-  background-color: #222224;
-}
-.text-light {
-  background-color: #F3F3FC;
-}
-.text-transparent {
-  background-color: transparent;
 }
 .text-dark {
   color: #222224;
