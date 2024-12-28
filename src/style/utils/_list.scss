@@ -3,9 +3,6 @@
 }
 
 .list {
-    &-roman > * {
-        list-style-type:lower-roman
-    }
     &-decimal > * {
         list-style-type: decimal;
     }

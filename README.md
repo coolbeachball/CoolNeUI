@@ -6,17 +6,35 @@
 # <p class="text-xl italic geometric m-0"><span class="text-blue">Co</span><span class="text-green">ol</span></span><span class="text-red">Ne</span><span class="text-yellow">UI</span></p>
 ## Art Made Easy
 
-**CoolNeUI** is a free and open-source **CSS framework** developed by **CoolBeachBall**.
+**CoolNeUI** is a free and open-source **UI framework** developed by **CoolBeachBall**.
+
+The tool uses *HTML classes* to style a website!
+Without relying on *CSS*.
+*CSS* is optional.
+
 
 ---
 
-## What is its purpose? 🤔
-**CoolNeUI** is a fast and lightweight UI framework designed to make websites look great with minimal code, eliminating the need to write any CSS (CSS is optional). Its motto is similar to jQuery's: "write less, do more."
+## What is CoolNeUI? 🤔
+I am telling you what, when you want to build a website and you want to make it look good but *CSS* is hard and trust me there are a lot of websites that look aweful! Not just because they're bad at design, but because of how hard is to make a website using *CSS*.
 
-Like other **CSS frameworks**, it uses **HTML classes** to style websites without directly writing CSS.
+
+**CoolNeUI** fixes these issues by giving already built components that will allow you to your website to not just look prettty, but also to build fast and responsive!
+
+Don't worry!
+**CoolNeUI** is undoubtly one of the easiest UI frameworks out there!
+It's so easy! You can just learn it in an afternood by just reading this documentation below.
+
+And that is the power of **CoolNeUI**! 
+it makes designing websites effortless.
+
+
+**CoolNeUI**
+Art made easy.
+
 
 ### Example:
-This HTML code:
+Here is an example of **CoolNeUI** used in *HTML* code:
 
 ```html
 <h1 class="text-red">Hello World!</h1>
@@ -37,11 +55,29 @@ With just three classes, your website becomes visually stunning!
 
 ---
 
+## what is its Mission?
+As I, **CoolBeachBall** CoolNeUI's developer, my mission is to make *Web development* simple and intuitive, to bring your ideas to come to life.
+To be so easy, by just first think then do then it's done!
+
+I hope you are going to have fun using **CoolNeUI** on you prodjects!
+
+### Honest Facts
+
+Even though you can make a website by just using **CoolNeUI**, it still doesn't fully replace *CSS*.
+At some point you will need some *CSS* for complex design.
+
+But don't worry! **CoolNeUI** has everything you need to build a stunning looking website!
+
+And **CoolNeUI** is still developing!
+So stay tuned fro more features to come!
+
 ## What Does CoolNeUI Offer? 📦
 
-**CoolNeUI** provides all the tools you need to create a stunning website, including:
+**CoolNeUI** provides all the bare necesities to be able to build a pretty website, quick and easy with minimal code!
 
-### 1. **12 Different Colors**
+Here are some that might inrerest you:
+
+### 1. **12 stunning Colors**
 - <span class="text-pink">pink</span>
 - <span class="text-red">red</span>
 - <span class="text-orange">orange</span>
@@ -63,7 +99,7 @@ With just three classes, your website becomes visually stunning!
 - <span class="text-silver bg-light">silver</span>
 - <span class="text-platinum">platinum</span>
 
-### 2. **16 Stunning Fonts**
+### 2. **16 pretty Fonts**
 - <span class="sans-serif">sans-serif</span>
 - <span class="serif">serif</span>
 - <span class="monospace">monospace</span>
@@ -81,7 +117,7 @@ With just three classes, your website becomes visually stunning!
 - <span class="vintage">vintage</span>
 - <span class="impact">impact</span>
 
-### 3. **6 Text Sizes**
+### 3. **6 Sizes**
 - <span class="text-xxl">xxl</span>
 - <span class="text-xl">xl</span>
 - <span class="text-lg">lg</span>
@@ -89,7 +125,7 @@ With just three classes, your website becomes visually stunning!
 - <span class="text-sm">sm</span>
 - <span class="text-xs">xs</span>
 
-### 4. **Dynamic Sizing**
+### 4. **it has Geometry**
 CoolNeUI supports size classes for both horizontal (`x-*`) and vertical (`y-*`) dimensions. Examples:
 - `x-100` for 100% width
 - `y-50` for 50% height
@@ -133,7 +169,6 @@ npm install coolneui
 ### Add to Your Project
 Include the stylesheet in your HTML file:
 
-
 ```html
 <link rel="stylesheet" href="./coolneui.css" />
 ```
@@ -143,22 +178,24 @@ Include the stylesheet in your HTML file:
 ## Content:
 
 **Basics**
-1. <a href="#chapter-i">overview</a>
-2. <a href="#chapter-ii">colors</a>
-3. <a href="#chapter-iii">fonts</a>
-4. <a href="#chapter-iv">sizes</a>
-5. <a href="#chapter-v">text position</a>
-6. <a href="#chapter-vi">box model</a>
-7. <a href="#chapter-vii">text size</a>
-8. <a href="#chapter-viii">borders</a>
-9. <a href="#chapter-ix">shades</a>
-10. <a href="#chapter-x">rounding</a>
-11. <a href="#chapter-xi">opacity</a>
-12. <a href="#chapter-xii">display</a>
-13. <a href="#chapter-xiii">rotation</a>
-14. <a href="#chapter-ixi">list</a>
-15. <a href="#chapter-ixii">flexbox</a>
-16. <a href="#chapter-ixiii">gradients</a>
+1. <a href="#chapter-1">overview</a>
+2. <a href="#chapter-2">colors</a>
+3. <a href="#chapter-3">fonts</a>
+4. <a href="#chapter-4">sizes</a>
+5. <a href="#chapter-5">text position</a>
+6. <a href="#chapter-6">box model</a>
+7. <a href="#chapter-7">text size</a>
+8. <a href="#chapter-8">borders</a>
+9. <a href="#chapter-9">shades</a>
+10. <a href="#chapter-10">rounding</a>
+11. <a href="#chapter-11">opacity</a>
+12. <a href="#chapter-12">display</a>
+13. <a href="#chapter-13">rotation</a>
+14. <a href="#chapter-14">list</a>
+15. <a href="#chapter-15">flexbox</a>
+16. <a href="#chapter-16">gradients</a>
+17. <a href="#chapter-17">z axis</a>
+18. <a href="#chapter-18">position</a>
 
 **components**
 1. <a href="#one">badge</a>
@@ -174,9 +211,9 @@ Include the stylesheet in your HTML file:
 ## CoolNeUI Course by CoolBeachBall
 Hi! I'm **CoolBeachBall**, and I'll teach you all the concepts of CoolNeUI.
 
-<section id="chapter-i"></section>
+<section id="chapter-1"></section>
 
-### Chapter I: Overview
+### Chapter 1: Overview
 CoolNeUI focuses on classes. If you're unfamiliar, a class is an attribute used to style specific elements in HTML. Add a class attribute with a predefined name, and the styles will automatically apply.
 
 Example:
@@ -202,7 +239,7 @@ Example:
 
 <section id="chapter-ii"></section>
 
-## Chapter II
+## Chapter 2
 **Colors** 🌈
 
 
@@ -345,9 +382,9 @@ these metals are:
 - `silver`
 - `platinum`
 
-<section id="chapter-iii"></section>
+<section id="chapter-3"></section>
 
-## Chapter III
+## Chapter 3
 **Fonts** 🖋
 
 
@@ -437,9 +474,9 @@ example: cursive italic bold.
     cursive bold italic underline
 </p>
 
-<section id="chapter-v"></section>
+<section id="chapter-4"></section>
 
-## Chapter IV
+## Chapter 4
 **sizes** 📏
 
 Sizes has an x and y axis.
@@ -559,9 +596,9 @@ The x axis will cover the full viewport of the website and y in another hand it 
 **⚠️ WARNING!**: the axis will only cover the length of the viewport of the webpage. If you want to go beyond 100 of the viewport height you don't need y in the first, the container will go according to the elements automatically.
 ```
 
-<section id="chapter-v"></section>
+<section id="chapter-5"></section>
 
-## Chapter V
+## Chapter 5
 **Position** 📐
 There are 3 Text positions:
 
@@ -586,9 +623,9 @@ here is an example:
     <p class="end">end</p>
 </div>
 
-<section id="chapter-vi"></section>
+<section id="chapter-6"></section>
 
-## Chapter VI
+## Chapter 6
 **Box Model** 📦
 
 Box model is an essential way to make space around a specific element.
@@ -755,9 +792,9 @@ margin y (top-bottom):
 - `m-y-sm`
 - `m-y-xs`
 
-<section id="chapter-vii"></section>
+<section id="chapter-7"></section>
 
-## Chapter VII
+## Chapter 7
 **Text Size** 🔍
 
 In this chapter you'll have to use the text class.
@@ -803,9 +840,9 @@ for example:
 - `sm` for normal text
 - `xs` for smaller text
 
-<section id="chapter-viii"></section>
+<section id="chapter-8"></section>
 
-## Chapter VIII
+## Chapter 8
 **border** 🔳
 
 Between padding and margin there is border!
@@ -962,9 +999,9 @@ for that you add a **cut** then the place you want to remove.
 <p class="border border-red border-cut-x">border-cut-x</p>
 <p class="border border-red border-cut-y">border-cut-y</p>
 
-<section id="chapter-ix">
+<section id="chapter-9">
 
-## Chapter IX
+## Chapter 9
 **Shades** 👤
 
 There 2 ways to add shade to an element: **text-shadow** (for text shadow) and **shadow** (for box shadow).
@@ -1007,9 +1044,9 @@ if you have a .png file you should consider using `filter` to make the transpare
   <img src="./images/CoolNeUI.svg" alt="logo" class="filter x-25" />
 </div>
 
-<section id="chapter-x"></section>
+<section id="chapter-10"></section>
 
-## Chapter X
+## Chapter 10
 **Rounding** ⭕️
 
 If you are tired of sharp corners, you came to the right place!
@@ -1068,9 +1105,9 @@ you can even make a box as crazy as this example below 👇:
 ```
 <div class="circle-tr circle-bl rounded-br rounded-tl p-sm x-25 bg-green"></div>
 
-<section id="chapter-xi"></section>
+<section id="chapter-11"></section>
 
-## Chapter XI
+## Chapter 11
 **Opacity** 👁
 
 You can change the opacity in 4 ways.
@@ -1101,9 +1138,9 @@ There is also **invisible**! (without using view)
 Which as you guested! it makes the element invisible!
 (By the way, why would you do that?)
 
-<section id="chapter-xii"></section>
+<section id="chapter-12"></section>
 
-## Chapter XII
+## Chapter 12
 **Display** 🖼
 
 You want the box to have the same power as the text and vice versa?
@@ -1117,9 +1154,9 @@ all the above you'll find below 👇:
 - `inline-block`      (turns either inline or block to have the power of both)
 - `none`              (turns any element into none of the above)
 
-<section id="chapter-xiii"></section>
+<section id="chapter-12"></section>
 
-## Chapter XIII
+## Chapter 12
 **Rotation** 🎡
 
 Rotation is cool!
@@ -1159,10 +1196,10 @@ You can rotate anything you want with the power of `rotate`
     <button class="rotate-360">360<sup>o</sup></button>
 </div>
 
-<section id="chapter-ixi"></section>
+<section id="chapter-12"></section>
 
 
-## Chapter IXI
+## Chapter 12
 **List**
 
 There are four kinds of way to stlye the list:
@@ -1187,8 +1224,9 @@ There are four kinds of way to stlye the list:
     <li>Ice cream</li>
 <ul>
 
+<section id="chapter-13"></section>
 
-## Chapter IXII
+## Chapter 13
 **Flexbox** 💪📦
 
 And here we are! finally we can make the layout even better!
@@ -1237,9 +1275,9 @@ To fix that you can change the direction of the elements.
 - `column`  changes from row to column
 - `row`  changes from column to row
 
-<section id="chapter-ixiii"></section>
+<section id="chapter-14"></section>
 
-## Chapter IXIII
+## Chapter 14
 **Gradients**
 
 How can we forget about gradients!
@@ -1354,7 +1392,109 @@ example: `gradient-{axis}-{1st color}-{2nd color}`
 
 As you can see! the gradients got into a rainbow formation, You simply can't get wrong with one gradient!
 
+<section id="chapter-15"></section>
+
+## Chapter 15
+**list**
+
+You can customize the lists!
+
+- `no-list`: removes any list style.
+- `list-decimal`: converts into number position.
+- `list-point`: converts into bullet points. 
+
+BTW list classes cascade.
+
+## Chapter 16
+**Z axis**
+
+what if you want to place elements go to *z axis*? 
+`index` might come in handy!
+
+here are 10 indexing methods:
+- `index-1`
+- `index-2`
+- `index-3`
+- `index-4`
+- `index-5`
+- `index-6`
+- `index-7`
+- `index-8`
+- `index-9`
+- `index-10`
+
+you can add up to 10 z-index
+
+<section id="chapter-17"></section>
+
+## Chapter 17
+**Posstiong**
+if you want the elements to do not interract with each other,
+you can add positions.
+
+- `static` the default position.
+- `absolute`: it desinteracts with other elements.
+- `sticky`: it allows to stay on the screen even if you scroll down or up.
+- `relative`: it positions relative to an element.
+
+
+and you can position on the place you want after position initialization:
+
+
+top:
+- `top-10`: 10% to the top. 
+- `top-20`: 20% to the top. 
+- `top-30`: 30% to the top. 
+- `top-40`: 40% to the top. 
+- `top-50`: 50% to the top. 
+- `top-60`: 60% to the top. 
+- `top-70`: 70% to the top. 
+- `top-80`: 80% to the top. 
+- `top-90`: 90% to the top. 
+- `top-100`: 100% to the top. 
+
+
+right:
+- `right-10`: 10% to the right. 
+- `right-20`: 20% to the right. 
+- `right-30`: 30% to the right. 
+- `right-40`: 40% to the right. 
+- `right-50`: 50% to the right. 
+- `right-60`: 60% to the right. 
+- `right-70`: 70% to the right. 
+- `right-80`: 80% to the right. 
+- `right-90`: 90% to the right. 
+- `right-100`: 100% to the right. 
+
+
+bottom:
+- `bottom-10`: 10% to the bottom. 
+- `bottom-20`: 20% to the bottom. 
+- `bottom-30`: 30% to the bottom. 
+- `bottom-40`: 40% to the bottom. 
+- `bottom-50`: 50% to the bottom. 
+- `bottom-60`: 60% to the bottom. 
+- `bottom-70`: 70% to the bottom. 
+- `bottom-80`: 80% to the bottom. 
+- `bottom-90`: 90% to the bottom. 
+- `bottom-100`: 100% to the bottom. 
+
+
+left:
+- `left-10`: 10% to the left. 
+- `left-20`: 20% to the left. 
+- `left-30`: 30% to the left. 
+- `left-40`: 40% to the left. 
+- `left-50`: 50% to the left. 
+- `left-60`: 60% to the left. 
+- `left-70`: 70% to the left. 
+- `left-80`: 80% to the left. 
+- `left-90`: 90% to the left. 
+- `left-100`: 100% to the left. 
+
 <section id="componets"></section>
+
+
 
 # Componets
 

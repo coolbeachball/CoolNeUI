@@ -549,15 +549,6 @@ button {
   color: transparent;
 }
 .bar-dark {
-  background-color: #222224;
-}
-.bar-light {
-  background-color: #F3F3FC;
-}
-.bar-transparent {
-  background-color: transparent;
-}
-.bar-dark {
   color: #222224;
 }
 .bar-light {
@@ -1779,15 +1770,6 @@ button {
   color: transparent;
 }
 .text-dark {
-  background-color: #222224;
-}
-.text-light {
-  background-color: #F3F3FC;
-}
-.text-transparent {
-  background-color: transparent;
-}
-.text-dark {
   color: #222224;
 }
 .text-light {
@@ -2112,13 +2094,41 @@ button {
   background: linear-gradient(90deg, #222224, #F3F3FC);
 }
 
+.index-1 {
+  z-index: 1;
+}
+.index-2 {
+  z-index: 2;
+}
+.index-3 {
+  z-index: 3;
+}
+.index-4 {
+  z-index: 4;
+}
+.index-5 {
+  z-index: 5;
+}
+.index-6 {
+  z-index: 6;
+}
+.index-7 {
+  z-index: 7;
+}
+.index-8 {
+  z-index: 8;
+}
+.index-9 {
+  z-index: 9;
+}
+.index-10 {
+  z-index: 10;
+}
+
 .no-list > * {
   list-style-type: none;
 }
 
-.list-roman > * {
-  list-style-type: lower-roman;
-}
 .list-decimal > * {
   list-style-type: decimal;
 }
@@ -2473,16 +2483,148 @@ button {
   padding-bottom: 1rem;
 }
 
-.start {
-  text-align: start;
+.absolute {
+  position: absolute;
 }
 
-.center {
-  text-align: center;
+.relative {
+  position: relative;
 }
 
-.end {
-  text-align: end;
+.fixed {
+  position: fixed;
+}
+
+.static {
+  position: static;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.top-10 {
+  top: 10%;
+}
+.top-20 {
+  top: 20%;
+}
+.top-30 {
+  top: 30%;
+}
+.top-40 {
+  top: 40%;
+}
+.top-50 {
+  top: 50%;
+}
+.top-60 {
+  top: 60%;
+}
+.top-70 {
+  top: 70%;
+}
+.top-80 {
+  top: 80%;
+}
+.top-90 {
+  top: 90%;
+}
+.top-100 {
+  top: 100%;
+}
+
+.right-10 {
+  right: 10%;
+}
+.right-20 {
+  right: 20%;
+}
+.right-30 {
+  right: 30%;
+}
+.right-40 {
+  right: 40%;
+}
+.right-50 {
+  right: 50%;
+}
+.right-60 {
+  right: 60%;
+}
+.right-70 {
+  right: 70%;
+}
+.right-80 {
+  right: 80%;
+}
+.right-90 {
+  right: 90%;
+}
+.right-100 {
+  right: 100%;
+}
+
+.bottom-10 {
+  bottom: 10%;
+}
+.bottom-20 {
+  bottom: 20%;
+}
+.bottom-30 {
+  bottom: 30%;
+}
+.bottom-40 {
+  bottom: 40%;
+}
+.bottom-50 {
+  bottom: 50%;
+}
+.bottom-60 {
+  bottom: 60%;
+}
+.bottom-70 {
+  bottom: 70%;
+}
+.bottom-80 {
+  bottom: 80%;
+}
+.bottom-90 {
+  bottom: 90%;
+}
+.bottom-100 {
+  bottom: 100%;
+}
+
+.left-10 {
+  left: 10%;
+}
+.left-20 {
+  left: 20%;
+}
+.left-30 {
+  left: 30%;
+}
+.left-40 {
+  left: 40%;
+}
+.left-50 {
+  left: 50%;
+}
+.left-60 {
+  left: 60%;
+}
+.left-70 {
+  left: 70%;
+}
+.left-80 {
+  left: 80%;
+}
+.left-90 {
+  left: 90%;
+}
+.left-100 {
+  left: 100%;
 }
 
 .rounded {
@@ -2729,6 +2871,18 @@ button {
 }
 .y-8 {
   height: 8.2vh;
+}
+
+.start {
+  text-align: start;
+}
+
+.center {
+  text-align: center;
+}
+
+.end {
+  text-align: end;
 }
 
 .text-xxl {

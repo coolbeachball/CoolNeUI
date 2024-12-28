@@ -1,11 +1,145 @@
-.start {
-    text-align: start;
+.absolute {
+    position: absolute;
+}
+.relative {
+    position: relative;
+}
+.fixed {
+    position: fixed;
+}
+.static {
+    position: static;
+}
+.sticky {
+    position: sticky;
 }
 
-.center {
-    text-align: center;
+.top {
+    &-10 {
+        top: 10%;
+    }
+    &-20 {
+        top: 20%;
+    }
+    &-30 {
+        top: 30%;
+    }
+    &-40 {
+        top: 40%;
+    }
+    &-50 {
+        top: 50%;
+    }
+    &-60 {
+        top: 60%;
+    }
+    &-70 {
+        top: 70%;
+    }
+    &-80 {
+        top: 80%;
+    }
+    &-90 {
+        top: 90%;
+    }
+    &-100 {
+        top: 100%;
+    }
 }
 
-.end {
-    text-align: end;
+.right {
+    &-10 {
+        right: 10%;
+    }
+    &-20 {
+        right: 20%;
+    }
+    &-30 {
+        right: 30%;
+    }
+    &-40 {
+        right: 40%;
+    }
+    &-50 {
+        right: 50%;
+    }
+    &-60 {
+        right: 60%;
+    }
+    &-70 {
+        right: 70%;
+    }
+    &-80 {
+        right: 80%;
+    }
+    &-90 {
+        right: 90%;
+    }
+    &-100 {
+        right: 100%;
+    }
+}
+.bottom {
+    &-10 {
+        bottom: 10%;
+    }
+    &-20 {
+        bottom: 20%;
+    }
+    &-30 {
+        bottom: 30%;
+    }
+    &-40 {
+        bottom: 40%;
+    }
+    &-50 {
+        bottom: 50%;
+    }
+    &-60 {
+        bottom: 60%;
+    }
+    &-70 {
+        bottom: 70%;
+    }
+    &-80 {
+        bottom: 80%;
+    }
+    &-90 {
+        bottom: 90%;
+    }
+    &-100 {
+        bottom: 100%;
+    }
+}
+.left {
+    &-10 {
+        left: 10%;
+    }
+    &-20 {
+        left: 20%;
+    }
+    &-30 {
+        left: 30%;
+    }
+    &-40 {
+        left: 40%;
+    }
+    &-50 {
+        left: 50%;
+    }
+    &-60 {
+        left: 60%;
+    }
+    &-70 {
+        left: 70%;
+    }
+    &-80 {
+        left: 80%;
+    }
+    &-90 {
+        left: 90%;
+    }
+    &-100 {
+        left: 100%;
+    }
 }
