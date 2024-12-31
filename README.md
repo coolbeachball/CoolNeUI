@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="./coolneui.css" />
 
 <img src="./public/CoolNeUI.svg" alt="CoolNeUI logo" class="x-25 m-xl" />
 
@@ -78,52 +77,52 @@ So stay tuned fro more features to come!
 Here are some that might inrerest you:
 
 ### 1. **12 stunning Colors**
-- <span class="text-pink">pink</span>
-- <span class="text-red">red</span>
-- <span class="text-orange">orange</span>
-- <span class="text-yellow">yellow</span>
-- <span class="text-green">green</span>
-- <span class="text-aqua">aqua</span>
-- <span class="text-sky">sky</span>
-- <span class="text-blue">blue</span>
-- <span class="text-violet">violet</span>
-- <span class="text-gray">gray</span>
-- <span class="text-dark bg-light">dark</span>
-- <span class="text-light">light</span>
+- <span style="background-color: #FF2D55">pink</span>
+- <span style="background-color: #FF3B30">red</span>
+- <span style="background-color: #FF9500">orange</span>
+- <span style="background-color: #FFCC00; color: #222224">yellow</span>
+- <span style="background-color: #4CD964">green</span>
+- <span style="background-color: #5AC8FA">aqua</span>
+- <span style="background-color: #34AADC">sky</span>
+- <span style="background-color: #007AFF">blue</span>
+- <span style="background-color: #5856D6">violet</span>
+- <span style="background-color: #8E8E93">gray</span>
+- <span style="background-color: #222224">dark</span>
+- <span style="background-color: #F3F3FC; color: #222224">light</span>
 
-**including metal colors 🤘**
-- <span class="text-lead">lead</span>
-- <span class="text-steel">steel</span>
-- <span class="text-iron">iron</span>
-- <span class="text-titanium">titanium</span>
-- <span class="text-silver bg-light">silver</span>
-- <span class="text-platinum">platinum</span>
+**including metal colors 🤟**
+- <span style="background-color: #29292C">lead</span>
+- <span style="background-color: #444449">steel</span>
+- <span style="background-color: #6E6E74">iron</span>
+- <span style="background-color: #8E8E93">titanium</span>
+- <span style="background-color: #C2C2C9">silver</span>
+- <span style="background-color: #E5E5ED; color: #222224">platinum</span>
 
 ### 2. **16 pretty Fonts**
-- <span class="sans-serif">sans-serif</span>
-- <span class="serif">serif</span>
-- <span class="monospace">monospace</span>
-- <span class="cursive">cursive</span>
-- <span class="fantasy">fantasy</span>
-- <span class="italic">italic</span>
-- <span class="boldf">bold</span>
-- <span class="underline">underline</span>
-- <span class="slab-serif">slab-serif</span>
-- <span class="modern-serif">modern-serif</span>
-- <span class="ultrathin">ultrathin</span>
-- <span class="bubble">bubble</span>
-- <span class="script">script</span>
-- <span class="geometric">geometric</span>
-- <span class="vintage">vintage</span>
-- <span class="impact">impact</span>
+- <span style="sans-serif">sans-serif</span>
+- <span style="serif">serif</span>
+- <span style="monospace">monospace</span>
+- <span style="cursive">cursive</span>
+- <span style="fantasy">fantasy</span>
+- <span style="italic">italic</span>
+- <span style="boldf">bold</span>
+- <span style="underline">underline</span>
+- <span style="slab-serif">slab-serif</span>
+- <span style="modern-serif">modern-serif</span>
+- <span style="ultrathin">ultrathin</span>
+- <span style="bubble">bubble</span>
+- <span style="script">script</span>
+- <span style="geometric">geometric</span>
+- <span style="vintage">vintage</span>
+- <span style="impact">impact</span>
 
 ### 3. **6 Sizes**
-- <span class="text-xxl">xxl</span>
-- <span class="text-xl">xl</span>
-- <span class="text-lg">lg</span>
-- <span class="text-md">md</span>
-- <span class="text-sm">sm</span>
-- <span class="text-xs">xs</span>
+- <span style="text-xxl">xxl</span>
+- <span style="text-xl">xl</span>
+- <span style="text-lg">lg</span>
+- <span style="text-md">md</span>
+- <span style="text-sm">sm</span>
+- <span style="text-xs">xs</span>
 
 ### 4. **it has Geometry**
 CoolNeUI supports size classes for both horizontal (`x-*`) and vertical (`y-*`) dimensions. Examples:
@@ -370,17 +369,38 @@ example: `text-{color}`
 **CoolNeUI** has one of the most widely used colors by default!
 Those colors bring life to your website and the colors are made perfectly to match together.
 
-**Metal Colors**
-CoolNeUI has *metal colors!**.
+But what if you want to do a website that is mostly green, or red or blue etc... ?
 
-these metals are:
+Well there are way to shade the colors.
 
-- `lead`
-- `steel`
-- `iron`
-- `titanium`
-- `silver`
-- `platinum`
+there are two ways: 
+
+**lighting the colors**
+- `light`
+- `light-1`
+- `light-2`
+
+**darkening the colors**
+- `dark`
+- `dark-1`
+- `dark-2`
+
+
+your can color any color except: `dark`, `light` & `transparent` (obviously).
+
+
+here are some examples:
+
+```html
+<span class="bg-red-dark-2">red-dark-2</span>
+<span class="bg-red-dark-1">red-dark-1</span>
+<span class="bg-red-light">red-light</span>
+<span class="bg-red">red</span>
+<span class="bg-red-dark">red-dark</span>
+<span class="bg-red-dark-1">red-dark-1</span>
+<span class="bg-red-dark-2">red-dark-2</span>
+```
+
 
 <section id="chapter-3"></section>
 

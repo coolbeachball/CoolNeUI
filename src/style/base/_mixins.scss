@@ -1,52 +1,275 @@
 @mixin borderColor() {
     &-pink {
-        border-color: $pink
+        border-color: $pink;
+
+        &-light {
+            border-color: $pink-light;
+
+            &-1 {
+                border-color: $pink-light-1;
+            }
+
+            &-2 {
+                border-color: $pink-light-2;
+            }
+        }
+
+        &-dark {
+            border-color: $pink-dark;
+
+            &-1 {
+                border-color: $pink-dark-1;
+            }
+
+            &-2 {
+                border-color: $pink-dark-2;
+            }
+        }
     }
     &-red {
         border-color: $red;
+
+        &-light {
+            border-color: $red-light;
+
+            &-1 {
+                border-color: $red-light-1;
+            }
+
+            &-2 {
+                border-color: $red-light-2;
+            }
+        }
+
+        &-dark {
+            border-color: $red-dark;
+
+            &-1 {
+                border-color: $red-dark-1;
+            }
+
+            &-2 {
+                border-color: $red-dark-2;
+            }
+        }
     }
     &-orange {
         border-color: $orange;
+
+        &-light {
+            border-color: $orange-light;
+
+            &-1 {
+                border-color: $orange-light-1;
+            }
+
+            &-2 {
+                border-color: $orange-light-2;
+            }
+        }
+
+        &-dark {
+            border-color: $orange-dark;
+
+            &-1 {
+                border-color: $orange-dark-1;
+            }
+
+            &-2 {
+                border-color: $orange-dark-2;
+            }
+        }
     }
     &-yellow {
         border-color: $yellow;
+
+        &-light {
+            border-color: $yellow-light;
+
+            &-1 {
+                border-color: $yellow-light-1;
+            }
+
+            &-2 {
+                border-color: $yellow-light-2;
+            }
+        }
+
+        &-dark {
+            border-color: $yellow-dark;
+
+            &-1 {
+                border-color: $yellow-dark-1;
+            }
+
+            &-2 {
+                border-color: $yellow-dark-2;
+            }
+        }
     }
     &-green {
         border-color: $green;
+
+        &-light {
+            border-color: $green-light;
+
+            &-1 {
+                border-color: $green-light-1;
+            }
+
+            &-2 {
+                border-color: $green-light-2;
+            }
+        }
+
+        &-dark {
+            border-color: $green-dark;
+
+            &-1 {
+                border-color: $green-dark-1;
+            }
+
+            &-2 {
+                border-color: $green-dark-2;
+            }
+        }
     }
     &-aqua {
         border-color: $aqua;
+
+        &-light {
+            border-color: $aqua-light;
+
+            &-1 {
+                border-color: $aqua-light-1;
+            }
+
+            &-2 {
+                border-color: $aqua-light-2;
+            }
+        }
+
+        &-dark {
+            border-color: $aqua-dark;
+
+            &-1 {
+                border-color: $aqua-dark-1;
+            }
+
+            &-2 {
+                border-color: $aqua-dark-2;
+            }
+        }
     }
     &-sky {
         border-color: $sky;
+
+        &-light {
+            border-color: $sky-light;
+
+            &-1 {
+                border-color: $sky-light-1;
+            }
+
+            &-2 {
+                border-color: $sky-light-2;
+            }
+        }
+
+        &-dark {
+            border-color: $sky-dark;
+
+            &-1 {
+                border-color: $sky-dark-1;
+            }
+
+            &-2 {
+                border-color: $sky-dark-2;
+            }
+        }
     }
     &-blue {
         border-color: $blue;
+
+        &-light {
+            border-color: $blue-light;
+
+            &-1 {
+                border-color: $blue-light-1;
+            }
+
+            &-2 {
+                border-color: $blue-light-2;
+            }
+        }
+
+        &-dark {
+            border-color: $blue-dark;
+
+            &-1 {
+                border-color: $blue-dark-1;
+            }
+
+            &-2 {
+                border-color: $blue-dark-2;
+            }
+        }
     }
     &-violet {
         border-color: $violet;
+
+        &-light {
+            border-color: $violet-light;
+
+            &-1 {
+                border-color: $violet-light-1;
+            }
+
+            &-2 {
+                border-color: $violet-light-2;
+            }
+        }
+
+        &-dark {
+            border-color: $violet-dark;
+
+            &-1 {
+                border-color: $violet-dark-1;
+            }
+
+            &-2 {
+                border-color: $violet-dark-2;
+            }
+        }
     }
     &-gray {
         border-color: $gray;
+
+        &-light {
+            border-color: $gray-light;
+
+            &-1 {
+                border-color: $gray-light-1;
+            }
+
+            &-2 {
+                border-color: $gray-light-2;
+            }
+        }
+
+        &-dark {
+            border-color: $gray-dark;
+
+            &-1 {
+                border-color: $gray-dark-1;
+            }
+
+            &-2 {
+                border-color: $gray-dark-2;
+            }
+        }
     }
-    &-lead {
-        border-color: $lead;
-    }
-    &-steel {
-        border-color: $steel;
-    }
-    &-iron {
-        border-color: $iron;
-    }
-    &-titanium {
-        border-color: $titanium;
-    }
-    &-silver {
-        border-color: $silver;
-    }
-    &-platinum {
-        border-color: $platinum;
-    }
+    
     &-dark {
         border-color: $dark;
     }
@@ -59,63 +282,278 @@
 }
 
 @mixin backgroundColor() {
+    
     &-pink {
-        background-color: $pink
+        background-color: $pink;
+
+        &-light {
+            background-color: $pink-light;
+
+            &-1 {
+                background-color: $pink-light-1;
+            }
+
+            &-2 {
+                background-color: $pink-light-2;
+            }
+        }
+
+        &-dark {
+            background-color: $pink-dark;
+
+            &-1 {
+                background-color: $pink-dark-1;
+            }
+
+            &-2 {
+                background-color: $pink-dark-2;
+            }
+        }
     }
     &-red {
         background-color: $red;
+
+        &-light {
+            background-color: $red-light;
+
+            &-1 {
+                background-color: $red-light-1;
+            }
+
+            &-2 {
+                background-color: $red-light-2;
+            }
+        }
+
+        &-dark {
+            background-color: $red-dark;
+
+            &-1 {
+                background-color: $red-dark-1;
+            }
+
+            &-2 {
+                background-color: $red-dark-2;
+            }
+        }
     }
     &-orange {
         background-color: $orange;
+
+        &-light {
+            background-color: $orange-light;
+
+            &-1 {
+                background-color: $orange-light-1;
+            }
+
+            &-2 {
+                background-color: $orange-light-2;
+            }
+        }
+
+        &-dark {
+            background-color: $orange-dark;
+
+            &-1 {
+                background-color: $orange-dark-1;
+            }
+
+            &-2 {
+                background-color: $orange-dark-2;
+            }
+        }
     }
     &-yellow {
         background-color: $yellow;
+
+        &-light {
+            background-color: $yellow-light;
+
+            &-1 {
+                background-color: $yellow-light-1;
+            }
+
+            &-2 {
+                background-color: $yellow-light-2;
+            }
+        }
+
+        &-dark {
+            background-color: $yellow-dark;
+
+            &-1 {
+                background-color: $yellow-dark-1;
+            }
+
+            &-2 {
+                background-color: $yellow-dark-2;
+            }
+        }
     }
     &-green {
         background-color: $green;
+
+        &-light {
+            background-color: $green-light;
+
+            &-1 {
+                background-color: $green-light-1;
+            }
+
+            &-2 {
+                background-color: $green-light-2;
+            }
+        }
+
+        &-dark {
+            background-color: $green-dark;
+
+            &-1 {
+                background-color: $green-dark-1;
+            }
+
+            &-2 {
+                background-color: $green-dark-2;
+            }
+        }
     }
     &-aqua {
         background-color: $aqua;
+
+        &-light {
+            background-color: $aqua-light;
+
+            &-1 {
+                background-color: $aqua-light-1;
+            }
+
+            &-2 {
+                background-color: $aqua-light-2;
+            }
+        }
+
+        &-dark {
+            background-color: $aqua-dark;
+
+            &-1 {
+                background-color: $aqua-dark-1;
+            }
+
+            &-2 {
+                background-color: $aqua-dark-2;
+            }
+        }
     }
     &-sky {
         background-color: $sky;
+
+        &-light {
+            background-color: $sky-light;
+
+            &-1 {
+                background-color: $sky-light-1;
+            }
+
+            &-2 {
+                background-color: $sky-light-2;
+            }
+        }
+
+        &-dark {
+            background-color: $sky-dark;
+
+            &-1 {
+                background-color: $sky-dark-1;
+            }
+
+            &-2 {
+                background-color: $sky-dark-2;
+            }
+        }
     }
     &-blue {
         background-color: $blue;
+
+        &-light {
+            background-color: $blue-light;
+
+            &-1 {
+                background-color: $blue-light-1;
+            }
+
+            &-2 {
+                background-color: $blue-light-2;
+            }
+        }
+
+        &-dark {
+            background-color: $blue-dark;
+
+            &-1 {
+                background-color: $blue-dark-1;
+            }
+
+            &-2 {
+                background-color: $blue-dark-2;
+            }
+        }
     }
     &-violet {
         background-color: $violet;
+
+        &-light {
+            background-color: $violet-light;
+
+            &-1 {
+                background-color: $violet-light-1;
+            }
+
+            &-2 {
+                background-color: $violet-light-2;
+            }
+        }
+
+        &-dark {
+            background-color: $violet-dark;
+
+            &-1 {
+                background-color: $violet-dark-1;
+            }
+
+            &-2 {
+                background-color: $violet-dark-2;
+            }
+        }
     }
     &-gray {
         background-color: $gray;
+
+        &-light {
+            background-color: $gray-light;
+
+            &-1 {
+                background-color: $gray-light-1;
+            }
+
+            &-2 {
+                background-color: $gray-light-2;
+            }
+        }
+
+        &-dark {
+            background-color: $gray-dark;
+
+            &-1 {
+                background-color: $gray-dark-1;
+            }
+
+            &-2 {
+                background-color: $gray-dark-2;
+            }
+        }
     }
-    &-lead {
-        background-color: $lead;
-    }
-    &-steel {
-        background-color: $steel;
-    }
-    &-iron {
-        background-color: $iron;
-    }
-    &-titanium {
-        background-color: $titanium;
-    }
-    &-silver {
-        background-color: $silver;
-    }
-    &-platinum {
-        background-color: $platinum;
-    }
-    &-dark {
-        background-color: $dark;
-    }
-    &-light {
-        background-color: $light;
-    }
-    &-transparent {
-        background-color: $transparent;
-    }
+    
     &-dark {
         background-color: $dark;
     }
@@ -127,63 +565,278 @@
     }
 }
 @mixin color() {
+    
     &-pink {
-        color: $pink
+        color: $pink;
+
+        &-light {
+            color: $pink-light;
+
+            &-1 {
+                color: $pink-light-1;
+            }
+
+            &-2 {
+                color: $pink-light-2;
+            }
+        }
+
+        &-dark {
+            color: $pink-dark;
+
+            &-1 {
+                color: $pink-dark-1;
+            }
+
+            &-2 {
+                color: $pink-dark-2;
+            }
+        }
     }
     &-red {
         color: $red;
+
+        &-light {
+            color: $red-light;
+
+            &-1 {
+                color: $red-light-1;
+            }
+
+            &-2 {
+                color: $red-light-2;
+            }
+        }
+
+        &-dark {
+            color: $red-dark;
+
+            &-1 {
+                color: $red-dark-1;
+            }
+
+            &-2 {
+                color: $red-dark-2;
+            }
+        }
     }
     &-orange {
         color: $orange;
+
+        &-light {
+            color: $orange-light;
+
+            &-1 {
+                color: $orange-light-1;
+            }
+
+            &-2 {
+                color: $orange-light-2;
+            }
+        }
+
+        &-dark {
+            color: $orange-dark;
+
+            &-1 {
+                color: $orange-dark-1;
+            }
+
+            &-2 {
+                color: $orange-dark-2;
+            }
+        }
     }
     &-yellow {
         color: $yellow;
+
+        &-light {
+            color: $yellow-light;
+
+            &-1 {
+                color: $yellow-light-1;
+            }
+
+            &-2 {
+                color: $yellow-light-2;
+            }
+        }
+
+        &-dark {
+            color: $yellow-dark;
+
+            &-1 {
+                color: $yellow-dark-1;
+            }
+
+            &-2 {
+                color: $yellow-dark-2;
+            }
+        }
     }
     &-green {
         color: $green;
+
+        &-light {
+            color: $green-light;
+
+            &-1 {
+                color: $green-light-1;
+            }
+
+            &-2 {
+                color: $green-light-2;
+            }
+        }
+
+        &-dark {
+            color: $green-dark;
+
+            &-1 {
+                color: $green-dark-1;
+            }
+
+            &-2 {
+                color: $green-dark-2;
+            }
+        }
     }
     &-aqua {
         color: $aqua;
+
+        &-light {
+            color: $aqua-light;
+
+            &-1 {
+                color: $aqua-light-1;
+            }
+
+            &-2 {
+                color: $aqua-light-2;
+            }
+        }
+
+        &-dark {
+            color: $aqua-dark;
+
+            &-1 {
+                color: $aqua-dark-1;
+            }
+
+            &-2 {
+                color: $aqua-dark-2;
+            }
+        }
     }
     &-sky {
         color: $sky;
+
+        &-light {
+            color: $sky-light;
+
+            &-1 {
+                color: $sky-light-1;
+            }
+
+            &-2 {
+                color: $sky-light-2;
+            }
+        }
+
+        &-dark {
+            color: $sky-dark;
+
+            &-1 {
+                color: $sky-dark-1;
+            }
+
+            &-2 {
+                color: $sky-dark-2;
+            }
+        }
     }
     &-blue {
         color: $blue;
+
+        &-light {
+            color: $blue-light;
+
+            &-1 {
+                color: $blue-light-1;
+            }
+
+            &-2 {
+                color: $blue-light-2;
+            }
+        }
+
+        &-dark {
+            color: $blue-dark;
+
+            &-1 {
+                color: $blue-dark-1;
+            }
+
+            &-2 {
+                color: $blue-dark-2;
+            }
+        }
     }
     &-violet {
         color: $violet;
+
+        &-light {
+            color: $violet-light;
+
+            &-1 {
+                color: $violet-light-1;
+            }
+
+            &-2 {
+                color: $violet-light-2;
+            }
+        }
+
+        &-dark {
+            color: $violet-dark;
+
+            &-1 {
+                color: $violet-dark-1;
+            }
+
+            &-2 {
+                color: $violet-dark-2;
+            }
+        }
     }
     &-gray {
         color: $gray;
+
+        &-light {
+            color: $gray-light;
+
+            &-1 {
+                color: $gray-light-1;
+            }
+
+            &-2 {
+                color: $gray-light-2;
+            }
+        }
+
+        &-dark {
+            color: $gray-dark;
+
+            &-1 {
+                color: $gray-dark-1;
+            }
+
+            &-2 {
+                color: $gray-dark-2;
+            }
+        }
     }
-    &-lead {
-        color: $lead;
-    }
-    &-steel {
-        color: $steel;
-    }
-    &-iron {
-        color: $iron;
-    }
-    &-titanium {
-        color: $titanium;
-    }
-    &-silver {
-        color: $silver;
-    }
-    &-platinum {
-        color: $platinum;
-    }
-    &-dark {
-        color: $dark;
-    }
-    &-light {
-        color: $light;
-    }
-    &-transparent {
-        color: $transparent;
-    }
+    
     &-dark {
         color: $dark;
     }
