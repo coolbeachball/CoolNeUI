@@ -1,8 +1,9 @@
+<link rel="stylesheet" href="./coolneui.css">
 
 <img src="./public/CoolNeUI.svg" alt="CoolNeUI logo" class="x-25 m-xl" />
 
 
-# <p class="text-xl italic geometric m-0"><span class="text-blue">Co</span><span class="text-green">ol</span></span><span class="text-red">Ne</span><span class="text-yellow">UI</span></p>
+# <p class="text-xl italic geometric m-0"><span class="text-blue-dark">Co</span><span class="text-green-dark">ol</span></span><span class="text-red-dark">Ne</span><span class="text-yellow-dark">UI</span></p>
 ## Art Made Easy
 
 **CoolNeUI** is a free and open-source **UI framework** developed by **CoolBeachBall**.
@@ -86,18 +87,14 @@ Here are some that might inrerest you:
 - <span style="background-color: #34AADC">sky</span>
 - <span style="background-color: #007AFF">blue</span>
 - <span style="background-color: #5856D6">violet</span>
-- <span style="background-color: #8E8E93">gray</span>
+- <span style="background-color: #8E8E93">silver</span>
 - <span style="background-color: #222224">dark</span>
 - <span style="background-color: #F3F3FC; color: #222224">light</span>
 
-**including metal colors 🤟**
-- <span style="background-color: #29292C">lead</span>
-- <span style="background-color: #444449">steel</span>
-- <span style="background-color: #6E6E74">iron</span>
-- <span style="background-color: #8E8E93">titanium</span>
+**including 3 metal colors 🤟**
 - <span style="background-color: #C2C2C9">silver</span>
-- <span style="background-color: #E5E5ED; color: #222224">platinum</span>
-
+- <span style="background-color: #8E8E93">tin</span>
+- <span style="background-color: #6E6E74">iron</span>
 ### 2. **16 pretty Fonts**
 - <span style="sans-serif">sans-serif</span>
 - <span style="serif">serif</span>
@@ -253,7 +250,7 @@ CoolNeUI has 14 colors, which are:
 - <span class="badge-sky">sky</span>
 - <span class="badge-blue">blue</span>
 - <span class="badge-violet">violet</span>
-- <span class="badge-gray">gray</span>
+- <span class="badge-silver">silver</span>
 - <span class="badge-dark">dark</span>
 - <span class="badge-light">light</span>
 
@@ -290,7 +287,7 @@ example : **bg-*(color)***
     <span class="bg-sky">bg-sky</span><br />
     <span class="bg-blue">bg-blue</span><br />
     <span class="bg-violet">bg-violet</span><br />
-    <span class="bg-gray">bg-gray</span><br />
+    <span class="bg-silver">bg-silver</span><br />
     <span class="bg-dark">bg-dark</span><br />
     <span class="bg-light">bg-light</span><br />
 </p>
@@ -308,7 +305,7 @@ example output 👇:
     <span class="bg-sky">bg-sky</span><br />
     <span class="bg-blue">bg-blue</span><br />
     <span class="bg-violet">bg-violet</span><br />
-    <span class="bg-gray">bg-gray</span><br />
+    <span class="bg-silver">bg-silver</span><br />
     <span class="bg-dark">bg-dark</span><br />
     <span class="bg-light">bg-light</span><br />
 </p>
@@ -343,7 +340,7 @@ example: `text-{color}`
     <span class="text-sky">text-sky</span><br />
     <span class="text-blue">text-blue</span><br />
     <span class="text-violet">text-violet</span><br />
-    <span class="text-gray">text-gray</span><br />
+    <span class="text-silver">text-silver</span><br />
     <span class="text-dark">text-dark</span><br />
     <span class="text-light">text-light</span><br />
 </p>
@@ -359,7 +356,7 @@ example: `text-{color}`
     <span class="text-sky">text-sky</span><br />
     <span class="text-blue">text-blue</span><br />
     <span class="text-violet">text-violet</span><br />
-    <span class="text-gray">text-gray</span><br />
+    <span class="text-silver">text-silver</span><br />
     <span class="text-dark bg-light">text-dark</span><br />
     <span class="text-light bg-dark">text-light</span><br />
 </p>
@@ -377,13 +374,11 @@ there are two ways:
 
 **lighting the colors**
 - `light`
-- `light-1`
-- `light-2`
+- `lighter`
 
 **darkening the colors**
 - `dark`
-- `dark-1`
-- `dark-2`
+- `darker`
 
 
 your can color any color except: `dark`, `light` & `transparent` (obviously).
@@ -392,14 +387,153 @@ your can color any color except: `dark`, `light` & `transparent` (obviously).
 here are some examples:
 
 ```html
-<span class="bg-red-dark-2">red-dark-2</span>
-<span class="bg-red-dark-1">red-dark-1</span>
-<span class="bg-red-light">red-light</span>
-<span class="bg-red">red</span>
-<span class="bg-red-dark">red-dark</span>
-<span class="bg-red-dark-1">red-dark-1</span>
-<span class="bg-red-dark-2">red-dark-2</span>
+<!-- pink -->
+<p class="bg-pink-darker">pink-darker</p>
+<p class="bg-pink-dark">pink-dark</p>
+<p class="bg-pink">pink</p>
+<p class="bg-pink-light">pink-light</p>
+<p class="bg-pink-lighter">pink-lighter</p>
+<!-- red -->
+<p class="bg-red-darker">red-darker</p>
+<p class="bg-red-dark">red-dark</p>
+<p class="bg-red">red</p>
+<p class="bg-red-light">red-light</p>
+<p class="bg-red-lighter">red-lighter</p>
+<!-- orange -->
+<p class="bg-orange-darker">orange-darker</p>
+<p class="bg-orange-dark">orange-dark</p>
+<p class="bg-orange">orange</p>
+<p class="bg-orange-light">orange-light</p>
+<p class="bg-orange-lighter">orange-lighter</p>
+<!-- yellow -->
+<p class="bg-yellow-darker">yellow-darker</p>
+<p class="bg-yellow-dark">yellow-dark</p>
+<p class="bg-yellow">yellow</p>
+<p class="bg-yellow-light">yellow-light</p>
+<p class="bg-yellow-lighter">yellow-lighter</p>
+<!-- green -->
+<p class="bg-green-darker">green-darker</p>
+<p class="bg-green-dark">green-dark</p>
+<p class="bg-green">green</p>
+<p class="bg-green-light">green-light</p>
+<p class="bg-green-lighter">green-lighter</p>
+<!-- aqua -->
+<p class="bg-aqua-darker">aqua-darker</p>
+<p class="bg-aqua-dark">aqua-dark</p>
+<p class="bg-aqua">aqua</p>
+<p class="bg-aqua-light">aqua-light</p>
+<p class="bg-aqua-lighter">aqua-lighter</p>
+<!-- sky -->
+<p class="bg-sky-darker">sky-darker</p>
+<p class="bg-sky-dark">sky-dark</p>
+<p class="bg-sky">sky</p>
+<p class="bg-sky-light">sky-light</p>
+<p class="bg-sky-lighter">sky-lighter</p>
+<!-- blue -->
+<p class="bg-blue-darker">blue-darker</p>
+<p class="bg-blue-dark">blue-dark</p>
+<p class="bg-blue">blue</p>
+<p class="bg-blue-light">blue-light</p>
+<p class="bg-blue-lighter">blue-lighter</p>
+<!-- violet -->
+<p class="bg-violet-darker">violet-darker</p>
+<p class="bg-violet-dark">violet-dark</p>
+<p class="bg-violet">violet</p>
+<p class="bg-violet-light">violet-light</p>
+<p class="bg-violet-lighter">violet-lighter</p>
+<!-- silver -->
+<p class="bg-silver-darker">silver-darker</p>
+<p class="bg-silver-dark">silver-dark</p>
+<p class="bg-silver">silver</p>
+<p class="bg-silver-light">silver-light</p>
+<p class="bg-silver-lighter">silver-lighter</p>
+<!-- tin -->
+<p class="bg-tin-darker">tin-darker</p>
+<p class="bg-tin-dark">tin-dark</p>
+<p class="bg-tin">tin</p>
+<p class="bg-tin-light">tin-light</p>
+<p class="bg-tin-lighter">tin-lighter</p>
+<!-- iron -->
+<p class="bg-iron-darker">iron-darker</p>
+<p class="bg-iron-dark">iron-dark</p>
+<p class="bg-iron">iron</p>
+<p class="bg-iron-light">iron-light</p>
+<p class="bg-iron-lighter">iron-lighter</p>
+
 ```
+
+**pink**
+<p class="bg-pink-darker">pink-darker</p>
+<p class="bg-pink-dark">pink-dark</p>
+<p class="bg-pink">pink</p>
+<p class="bg-pink-light">pink-light</p>
+<p class="bg-pink-lighter">pink-lighter</p>
+**red**
+<p class="bg-red-darker">red-darker</p>
+<p class="bg-red-dark">red-dark</p>
+<p class="bg-red">red</p>
+<p class="bg-red-light">red-light</p>
+<p class="bg-red-lighter">red-lighter</p>
+**orange**
+<p class="bg-orange-darker">orange-darker</p>
+<p class="bg-orange-dark">orange-dark</p>
+<p class="bg-orange">orange</p>
+<p class="bg-orange-light">orange-light</p>
+<p class="bg-orange-lighter">orange-lighter</p>
+**yellow**
+<p class="bg-yellow-darker">yellow-darker</p>
+<p class="bg-yellow-dark">yellow-dark</p>
+<p class="bg-yellow">yellow</p>
+<p class="bg-yellow-light">yellow-light</p>
+<p class="bg-yellow-lighter">yellow-lighter</p>
+**green**
+<p class="bg-green-darker">green-darker</p>
+<p class="bg-green-dark">green-dark</p>
+<p class="bg-green">green</p>
+<p class="bg-green-light">green-light</p>
+<p class="bg-green-lighter">green-lighter</p>
+**aqua**
+<p class="bg-aqua-darker">aqua-darker</p>
+<p class="bg-aqua-dark">aqua-dark</p>
+<p class="bg-aqua">aqua</p>
+<p class="bg-aqua-light">aqua-light</p>
+<p class="bg-aqua-lighter">aqua-lighter</p>
+**sky**
+<p class="bg-sky-darker">sky-darker</p>
+<p class="bg-sky-dark">sky-dark</p>
+<p class="bg-sky">sky</p>
+<p class="bg-sky-light">sky-light</p>
+<p class="bg-sky-lighter">sky-lighter</p>
+**blue**
+<p class="bg-blue-darker">blue-darker</p>
+<p class="bg-blue-dark">blue-dark</p>
+<p class="bg-blue">blue</p>
+<p class="bg-blue-light">blue-light</p>
+<p class="bg-blue-lighter">blue-lighter</p>
+**violet**
+<p class="bg-violet-darker">violet-darker</p>
+<p class="bg-violet-dark">violet-dark</p>
+<p class="bg-violet">violet</p>
+<p class="bg-violet-light">violet-light</p>
+<p class="bg-violet-lighter">violet-lighter</p>
+**silver**
+<p class="bg-silver-darker">silver-darker</p>
+<p class="bg-silver-dark">silver-dark</p>
+<p class="bg-silver">silver</p>
+<p class="bg-silver-light">silver-light</p>
+<p class="bg-silver-lighter">silver-lighter</p>
+**tin**
+<p class="bg-tin-darker">tin-darker</p>
+<p class="bg-tin-dark">tin-dark</p>
+<p class="bg-tin">tin</p>
+<p class="bg-tin-light">tin-light</p>
+<p class="bg-tin-lighter">tin-lighter</p>
+**iron**
+<p class="bg-iron-darker">iron-darker</p>
+<p class="bg-iron-dark">iron-dark</p>
+<p class="bg-iron">iron</p>
+<p class="bg-iron-light">iron-light</p>
+<p class="bg-iron-lighter">iron-lighter</p>
 
 
 <section id="chapter-3"></section>
@@ -1328,8 +1462,8 @@ example: `gradient-{axis}-{1st color}-{2nd color}`
 
 
 <p class="gradient-x-dark-light">dark-light</p>
-<p class="gradient-x-gray-light">gray-light</p>
-<p class="gradient-x-light-gray">light-gray</p>
+<p class="gradient-x-silver-light">silver-light</p>
+<p class="gradient-x-light-silver">light-silver</p>
 <p class="gradient-x-light-dark">light-dark</p>
 ```
 
@@ -1354,8 +1488,8 @@ example: `gradient-{axis}-{1st color}-{2nd color}`
 
 
 <p class="gradient-x-dark-light">dark-light</p>
-<p class="gradient-x-gray-light">gray-light</p>
-<p class="gradient-x-light-gray">light-gray</p>
+<p class="gradient-x-silver-light">silver-light</p>
+<p class="gradient-x-light-silver">light-silver</p>
 <p class="gradient-x-light-dark">light-dark</p>
 
 
@@ -1379,10 +1513,10 @@ example: `gradient-{axis}-{1st color}-{2nd color}`
 <p class="gradient-y-violet-pink">violet-pink</p>
 <p class="gradient-y-pink-violet">pink-violet</p>
 
-<p class="gradient-y-gray-light">gray-light</p>
+<p class="gradient-y-silver-light">silver-light</p>
 <p class="gradient-y-dark-light">dark-light</p>
 <p class="gradient-y-light-dark">light-dark</p>
-<p class="gradient-y-light-gray">light-gray</p>
+<p class="gradient-y-light-silver">light-silver</p>
 ```
 
 <p class="gradient-y-pink-red">pink-red</p>
@@ -1405,10 +1539,10 @@ example: `gradient-{axis}-{1st color}-{2nd color}`
 <p class="gradient-y-pink-violet">pink-violet</p>
 
 
-<p class="gradient-y-gray-light">gray-light</p>
+<p class="gradient-y-silver-light">silver-light</p>
 <p class="gradient-y-dark-light">dark-light</p>
 <p class="gradient-y-light-dark">light-dark</p>
-<p class="gradient-y-light-gray">light-gray</p>
+<p class="gradient-y-light-silver">light-silver</p>
 
 As you can see! the gradients got into a rainbow formation, You simply can't get wrong with one gradient!
 
@@ -1625,7 +1759,7 @@ BTW you can add custom colors without needing to use *text* class.
 <a href="#" class="link-sky">click</a>
 <a href="#" class="link-blue">click</a>
 <a href="#" class="link-violet">click</a>
-<a href="#" class="link-gray">click</a>
+<a href="#" class="link-silver">click</a>
 <a href="#" class="link-light bg-dark">click</a>
 <a href="#" class="link-dark bg-light">click</a>
 ```
@@ -1638,7 +1772,7 @@ BTW you can add custom colors without needing to use *text* class.
 <a href="#" class="link-sky">click</a>
 <a href="#" class="link-blue">click</a>
 <a href="#" class="link-violet">click</a>
-<a href="#" class="link-gray">click</a>
+<a href="#" class="link-silver">click</a>
 <a href="#" class="link-light bg-dark">click</a>
 <a href="#" class="link-dark bg-light">click</a>
 

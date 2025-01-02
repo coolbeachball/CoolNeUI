@@ -1,7 +1,7 @@
 @import '../base/mixins';
 
 .btn {
-    background-color: $gray;
+    background-color: $silver;
     color: $light;
     border: none;
     font-size: 1rem;
@@ -25,66 +25,37 @@
     
             &-light {
                 border-color: $pink-light;
-                color: $pink-light;
+            }
     
-                &-1 {
-                    border-color: $pink-light-1;
-                    color: $pink-light-1;
-                }
-    
-                &-2 {
-                    border-color: $pink-light-2;
-                    color: $pink-light-2;
-                }
+            &-lighter {
+                border-color: $pink-lighter;
             }
     
             &-dark {
                 border-color: $pink-dark;
-                color: $pink-dark;
+            }
     
-                &-1 {
-                    border-color: $pink-dark-1;
-                    color: $pink-dark-1;
-                }
-    
-                &-2 {
-                    border-color: $pink-dark-2;
-                    color: $pink-dark-2;
-                }
+            &-darker {
+                border-color: $pink-darker;
             }
         }
-
         &-red {
             border-color: $red;
     
             &-light {
                 border-color: $red-light;
-                color: $red-light;
+            }
     
-                &-1 {
-                    border-color: $red-light-1;
-                    color: $red-light-1;
-                }
-    
-                &-2 {
-                    border-color: $red-light-2;
-                    color: $red-light-2;
-                }
+            &-lighter {
+                border-color: $red-lighter;
             }
     
             &-dark {
                 border-color: $red-dark;
-                color: $red-dark;
+            }
     
-                &-1 {
-                    border-color: $red-dark-1;
-                    color: $red-dark-1;
-                }
-    
-                &-2 {
-                    border-color: $red-dark-2;
-                    color: $red-dark-2;
-                }
+            &-darker {
+                border-color: $red-darker;
             }
         }
         &-orange {
@@ -92,32 +63,18 @@
     
             &-light {
                 border-color: $orange-light;
-                color: $orange-light;
+            }
     
-                &-1 {
-                    border-color: $orange-light-1;
-                    color: $orange-light-1;
-                }
-    
-                &-2 {
-                    border-color: $orange-light-2;
-                    color: $orange-light-2;
-                }
+            &-lighter {
+                border-color: $orange-lighter;
             }
     
             &-dark {
                 border-color: $orange-dark;
-                color: $orange-dark;
+            }
     
-                &-1 {
-                    border-color: $orange-dark-1;
-                    color: $orange-dark-1;
-                }
-    
-                &-2 {
-                    border-color: $orange-dark-2;
-                    color: $orange-dark-2;
-                }
+            &-darker {
+                border-color: $orange-darker;
             }
         }
         &-yellow {
@@ -125,32 +82,18 @@
     
             &-light {
                 border-color: $yellow-light;
-                color: $yellow-light;
+            }
     
-                &-1 {
-                    border-color: $yellow-light-1;
-                    color: $yellow-light-1;
-                }
-    
-                &-2 {
-                    border-color: $yellow-light-2;
-                    color: $yellow-light-2;
-                }
+            &-lighter {
+                border-color: $yellow-lighter;
             }
     
             &-dark {
                 border-color: $yellow-dark;
-                color: $yellow-dark;
+            }
     
-                &-1 {
-                    border-color: $yellow-dark-1;
-                    color: $yellow-dark-1;
-                }
-    
-                &-2 {
-                    border-color: $yellow-dark-2;
-                    color: $yellow-dark-2;
-                }
+            &-darker {
+                border-color: $yellow-darker;
             }
         }
         &-green {
@@ -158,32 +101,18 @@
     
             &-light {
                 border-color: $green-light;
-                color: $green-light;
+            }
     
-                &-1 {
-                    border-color: $green-light-1;
-                    color: $green-light-1;
-                }
-    
-                &-2 {
-                    border-color: $green-light-2;
-                    color: $green-light-2;
-                }
+            &-lighter {
+                border-color: $green-lighter;
             }
     
             &-dark {
                 border-color: $green-dark;
-                color: $green-dark;
+            }
     
-                &-1 {
-                    border-color: $green-dark-1;
-                    color: $green-dark-1;
-                }
-    
-                &-2 {
-                    border-color: $green-dark-2;
-                    color: $green-dark-2;
-                }
+            &-darker {
+                border-color: $green-darker;
             }
         }
         &-aqua {
@@ -191,65 +120,37 @@
     
             &-light {
                 border-color: $aqua-light;
-                color: $aqua-light;
+            }
     
-                &-1 {
-                    border-color: $aqua-light-1;
-                    color: $aqua-light-1;
-                }
-    
-                &-2 {
-                    border-color: $aqua-light-2;
-                    color: $aqua-light-2;
-                }
+            &-lighter {
+                border-color: $aqua-lighter;
             }
     
             &-dark {
                 border-color: $aqua-dark;
-                color: $aqua-dark;
+            }
     
-                &-1 {
-                    border-color: $aqua-dark-1;
-                    color: $aqua-dark-1;
-                }
-    
-                &-2 {
-                    border-color: $aqua-dark-2;
-                    color: $aqua-dark-2;
-                }
+            &-darker {
+                border-color: $aqua-darker;
             }
         }
         &-sky {
             border-color: $sky;
     
             &-light {
-                border-color: $sky-light;
-                color: $sky-light;
+                border-color: $silver-light;
+            }
     
-                &-1 {
-                    border-color: $sky-light-1;
-                    color: $sky-light-1;
-                }
-    
-                &-2 {
-                    border-color: $sky-light-2;
-                    color: $sky-light-2;
-                }
+            &-lighter {
+                border-color: $silver-lighter;
             }
     
             &-dark {
-                border-color: $sky-dark;
-                color: $sky-dark;
+                border-color: $silver-dark;
+            }
     
-                &-1 {
-                    border-color: $sky-dark-1;
-                    color: $sky-dark-1;
-                }
-    
-                &-2 {
-                    border-color: $sky-dark-2;
-                    color: $sky-dark-2;
-                }
+            &-darker {
+                border-color: $silver-darker;
             }
         }
         &-blue {
@@ -257,32 +158,18 @@
     
             &-light {
                 border-color: $blue-light;
-                color: $blue-light;
+            }
     
-                &-1 {
-                    border-color: $blue-light-1;
-                    color: $blue-light-1;
-                }
-    
-                &-2 {
-                    border-color: $blue-light-2;
-                    color: $blue-light-2;
-                }
+            &-lighter {
+                border-color: $blue-lighter;
             }
     
             &-dark {
                 border-color: $blue-dark;
-                color: $blue-dark;
+            }
     
-                &-1 {
-                    border-color: $blue-dark-1;
-                    color: $blue-dark-1;
-                }
-    
-                &-2 {
-                    border-color: $blue-dark-2;
-                    color: $blue-dark-2;
-                }
+            &-darker {
+                border-color: $blue-darker;
             }
         }
         &-violet {
@@ -290,74 +177,86 @@
     
             &-light {
                 border-color: $violet-light;
-                color: $violet-light;
+            }
     
-                &-1 {
-                    border-color: $violet-light-1;
-                    color: $violet-light-1;
-                }
-    
-                &-2 {
-                    border-color: $violet-light-2;
-                    color: $violet-light-2;
-                }
+            &-lighter {
+                border-color: $violet-lighter;
             }
     
             &-dark {
                 border-color: $violet-dark;
-                color: $violet-dark;
+            }
     
-                &-1 {
-                    border-color: $violet-dark-1;
-                    color: $violet-dark-1;
-                }
-    
-                &-2 {
-                    border-color: $violet-dark-2;
-                    color: $violet-dark-2;
-                }
+            &-darker {
+                border-color: $violet-darker;
             }
         }
-        &-gray {
-            border-color: $gray;
+        &-silver {
+            border-color: $silver;
     
             &-light {
-                border-color: $gray-light;
-                color: $gray-light;
+                border-color: $silver-light;
+            }
     
-                &-1 {
-                    border-color: $gray-light-1;
-                    color: $gray-light-1;
-                }
-    
-                &-2 {
-                    border-color: $gray-light-2;
-                    color: $gray-light-2;
-                }
+            &-lighter {
+                border-color: $silver-lighter;
             }
     
             &-dark {
-                border-color: $gray-dark;
-                color: $gray-dark;
+                border-color: $silver-dark;
+            }
     
-                &-1 {
-                    border-color: $gray-dark-1;
-                    color: $gray-dark-1;
-                }
-    
-                &-2 {
-                    border-color: $gray-dark-2;
-                    color: $gray-dark-2;
-                }
+            &-darker {
+                border-color: $silver-darker;
             }
         }
+        &-tin {
+            border-color: $tin;
+    
+            &-light {
+                border-color: $tin-light;
+            }
+    
+            &-lighter {
+                border-color: $tin-lighter;
+            }
+    
+            &-dark {
+                border-color: $tin-dark;
+            }
+    
+            &-darker {
+                border-color: $tin-darker;
+            }
+        }
+        &-iron {
+            border-color: $iron;
+    
+            &-light {
+                border-color: $iron-light;
+            }
+    
+            &-lighter {
+                border-color: $iron-lighter;
+            }
+    
+            &-dark {
+                border-color: $iron-dark;
+            }
+    
+            &-darker {
+                border-color: $iron-darker;
+            }
+        }
+        
         &-dark {
             border-color: $dark;
-            color: $dark;
         }
         &-light {
             border-color: $light;
-            color: $light;
+        }
+        &-transparent {
+            border-color: $transparent;
         }
     }
 }

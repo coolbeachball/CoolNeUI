@@ -2,7 +2,7 @@
 
 .card {
   padding: $md;
-  border: 1px solid $gray;
+  border: 1px solid $silver;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-color: $light;
@@ -16,7 +16,7 @@
   
   &-body {
     font-size: 1rem;
-    color: $gray;
+    color: $silver;
   }
   
   &-footer {

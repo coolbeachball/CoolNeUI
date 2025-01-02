@@ -6,7 +6,7 @@
 }
 
 .link {
-    color: $aqua;
+    color: $blue-light;
 
     &-pink {
         color: $pink;
@@ -125,11 +125,39 @@
         }
     }
 
-    &-gray {
-        color: $gray;
+    &-silver {
+        color: $silver;
 
         &:hover {
-            color: darken($gray, 10);
+            color: darken($silver, 10);
+            text-decoration: underline;
+        }
+
+        &:active {
+            opacity: 0.8;
+            text-decoration: underline;
+        }
+    }
+
+    &-tin {
+        color: $tin;
+
+        &:hover {
+            color: darken($tin, 10);
+            text-decoration: underline;
+        }
+
+        &:active {
+            opacity: 0.8;
+            text-decoration: underline;
+        }
+    }
+
+    &-iron {
+        color: $iron;
+
+        &:hover {
+            color: darken($iron, 10);
             text-decoration: underline;
         }
 
