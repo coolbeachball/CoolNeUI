@@ -139,20 +139,6 @@
         }
     }
 
-    &-tin {
-        color: $tin;
-
-        &:hover {
-            color: darken($tin, 10);
-            text-decoration: underline;
-        }
-
-        &:active {
-            opacity: 0.8;
-            text-decoration: underline;
-        }
-    }
-
     &-iron {
         color: $iron;
 

@@ -78,23 +78,21 @@ So stay tuned fro more features to come!
 Here are some that might inrerest you:
 
 ### 1. **12 stunning Colors**
-- <span style="background-color: #FF2D55">pink</span>
-- <span style="background-color: #FF3B30">red</span>
-- <span style="background-color: #FF9500">orange</span>
-- <span style="background-color: #FFCC00; color: #222224">yellow</span>
-- <span style="background-color: #4CD964">green</span>
-- <span style="background-color: #5AC8FA">aqua</span>
-- <span style="background-color: #34AADC">sky</span>
-- <span style="background-color: #007AFF">blue</span>
-- <span style="background-color: #5856D6">violet</span>
-- <span style="background-color: #8E8E93">silver</span>
-- <span style="background-color: #222224">dark</span>
-- <span style="background-color: #F3F3FC; color: #222224">light</span>
+- <p style="background-color: #F53B57">pink</p>
+- <p style="background-color: #FF3F34">red</p>
+- <p style="background-color: #FF9500">orange</p>
+- <p style="background-color: #FFD32A; color: #171B1D">yellow</p>
+- <p style="background-color: #04C56B">green</p>
+- <p style="background-color: #00D8D6">aqua</p>
+- <p style="background-color: #10BCF9">sky</p>
+- <p style="background-color: #3D40C6">blue</p>
+- <p style="background-color: #6629BA">violet</p>
+- <p style="background-color: #171B1D">dark</p>
+- <p style="background-color: #F3F3FC; color: #171B1D">light</p>
 
-**including 3 metal colors 🤟**
-- <span style="background-color: #C2C2C9">silver</span>
-- <span style="background-color: #8E8E93">tin</span>
-- <span style="background-color: #6E6E74">iron</span>
+**including 2 metal colors 🤟**
+- <p style="background-color: #818E9B">silver</p>
+- <p style="background-color: #182027">iron</p>
 ### 2. **16 pretty Fonts**
 - <span style="sans-serif">sans-serif</span>
 - <span style="serif">serif</span>
@@ -447,12 +445,6 @@ here are some examples:
 <p class="bg-silver">silver</p>
 <p class="bg-silver-light">silver-light</p>
 <p class="bg-silver-lighter">silver-lighter</p>
-<!-- tin -->
-<p class="bg-tin-darker">tin-darker</p>
-<p class="bg-tin-dark">tin-dark</p>
-<p class="bg-tin">tin</p>
-<p class="bg-tin-light">tin-light</p>
-<p class="bg-tin-lighter">tin-lighter</p>
 <!-- iron -->
 <p class="bg-iron-darker">iron-darker</p>
 <p class="bg-iron-dark">iron-dark</p>
@@ -522,12 +514,6 @@ here are some examples:
 <p class="bg-silver">silver</p>
 <p class="bg-silver-light">silver-light</p>
 <p class="bg-silver-lighter">silver-lighter</p>
-**tin**
-<p class="bg-tin-darker">tin-darker</p>
-<p class="bg-tin-dark">tin-dark</p>
-<p class="bg-tin">tin</p>
-<p class="bg-tin-light">tin-light</p>
-<p class="bg-tin-lighter">tin-lighter</p>
 **iron**
 <p class="bg-iron-darker">iron-darker</p>
 <p class="bg-iron-dark">iron-dark</p>

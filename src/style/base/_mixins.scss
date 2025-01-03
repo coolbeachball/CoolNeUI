@@ -189,25 +189,6 @@
             border-color: $silver-darker;
         }
     }
-    &-tin {
-        border-color: $tin;
-
-        &-light {
-            border-color: $tin-light;
-        }
-
-        &-lighter {
-            border-color: $tin-lighter;
-        }
-
-        &-dark {
-            border-color: $tin-dark;
-        }
-
-        &-darker {
-            border-color: $tin-darker;
-        }
-    }
     &-iron {
         border-color: $iron;
 
@@ -441,26 +422,6 @@
             background-color: $silver-darker;
         }
     }
-    &-tin {
-        background-color: $tin;
-    
-        &-light {
-            background-color: $tin-light;
-            color: $dark;
-        }
-    
-        &-lighter {
-            background-color: $tin-lighter;
-        }
-    
-        &-dark {
-            background-color: $tin-dark;
-        }
-    
-        &-darker {
-            background-color: $tin-darker;
-        }
-    }
     &-iron {
         background-color: $iron;
     
@@ -688,25 +649,6 @@
 
         &-darker {
             color: $silver-darker;
-        }
-    }
-    &-tin {
-        color: $tin;
-
-        &-light {
-            color: $tin-light;
-        }
-
-        &-lighter {
-            color: $tin-lighter;
-        }
-
-        &-dark {
-            color: $tin-dark;
-        }
-
-        &-darker {
-            color: $tin-darker;
         }
     }
     &-iron {
